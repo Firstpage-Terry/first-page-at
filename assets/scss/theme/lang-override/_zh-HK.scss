@@ -1,0 +1,92 @@
+/* Settings */
+
+/* H1 Dynamic Width */
+$h1-dw: clamp(2rem, calc(0.75rem + 4vw), 3.25rem);
+
+/* H2 Dynamic Width */
+$h2-dw: clamp(1.75rem, calc(0.75rem + 4vw), 2.5rem);
+
+/* P Dynamic Width */
+$p-dw: clamp(0.75rem, calc(0.75rem + 1vw), 1.5rem);
+
+/* Mixins */
+@mixin spacing-reset {
+  padding: 0;
+  margin: 0.3em 0 !important;
+}
+
+html[lang="zh-HK"] {
+  /*** Fix container h1, h2 responsive ***/
+  .container {
+    h1 {
+      @include spacing-reset;
+      font-size: $h1-dw !important;
+    }
+    h2 {
+      // font-size: $h2-dw !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      line-height: 1.4 !important;
+    } 
+  }
+  /*** Giving the main text some breathing space ***/
+  .text-container,
+  .container {
+    p {
+      line-height: 1.7;
+    }
+  }
+  /*** Banner Description text fix ***/
+  .banner {
+    .FP-h1 {
+      line-height: 1.4 !important;
+    }
+
+    p {
+      /* @include spacing-reset; */
+      font-size: $p-dw;
+      max-width: 100% !important;
+    }
+  }
+  /*** Blog text space ***/
+  .blog-content {
+    h2,
+    #eta-desktop,
+    #eta-mobile {
+      line-height: 1.4 !important; // 1.7
+    }
+
+    span {
+      line-height: 1.5 !important; // 1.7
+    }
+  }
+  /*** ETA ***/
+  #eta-desktop,
+  #eta-mobile,
+  .eta {
+    font-size: 0.9rem !important;
+  }
+  /*** Related Post Title ***/
+  .related-articles {
+    span {
+      line-height: 1.7 !important;
+    }
+  }
+  footer {
+    .container {
+      p {
+        line-height: 1.35;
+      }
+    }
+  }
+
+  .strategy-form-hero-text,
+  .strategy-form-hero-text h1 {
+    font-size: 2.5rem;
+  }
+}

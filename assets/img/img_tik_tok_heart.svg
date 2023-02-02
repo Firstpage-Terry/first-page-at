@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="521px" height="536px" viewBox="0 0 521 536" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>img_tik_tok_heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 421 0 421 383 0 383"></polygon>
+        <filter x="-3.9%" y="-49.6%" width="107.8%" height="199.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="6.45" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Social-Media---Tik-Tok---Douyin" transform="translate(-135.000000, -4132.000000)">
+            <g id="img_tik_tok_heart" transform="translate(149.000000, 4132.000000)">
+                <g id="Group-3" transform="translate(36.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M303.934047,0 C265.764224,0 231.868002,18.2744015 210.5,46.5371469 C189.127202,18.2744015 155.235776,0 117.065953,0 C52.4103607,0 0,61.2199644 0,125.858887 C0,236.857535 190.969023,383 210.5,383 C230.026181,383 421,236.857535 421,125.858887 C421,61.2199644 368.584843,0 303.934047,0" id="Fill-1" fill="#FC2A5B" mask="url(#mask-2)"></path>
+                </g>
+                <ellipse id="Oval-4" fill="#000000" opacity="0.05" filter="url(#filter-3)" cx="246.5" cy="499.5" rx="246.5" ry="19.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

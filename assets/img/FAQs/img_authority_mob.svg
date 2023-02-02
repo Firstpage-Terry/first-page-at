@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="171px" height="221px" viewBox="0 0 171 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_authority_mob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M81,150 C105.258929,150 125,130.258929 125,106 C125,81.7410714 105.258929,62 81,62 C56.7410714,62 37,81.7410714 37,106 C37,130.258929 56.7410714,150 81,150 Z M60.8387016,101.710312 L75.2628566,116.145485 L102.268217,89.1194969 L111.163522,98.021597 L75.2628566,133.949686 L51.9433962,110.612412 L60.8387016,101.710312 Z" id="path-1"></path>
+        <filter x="-8.0%" y="-5.7%" width="115.9%" height="115.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M81.5,213 C82.7538462,211.953461 163,191.217682 163,106.5 L163,24.9609375 L142.04379,24.9609375 C98.8595652,24.9609375 84.4582933,1.66893779 81.5,0 C78.70007,1.57955933 63.9151341,24.9609375 20.9562099,24.9609375 L0,24.9609375 L0,106.5 C0,191.214432 80.2461538,211.953461 81.5,213 Z M81.7772109,49.921875 C112.807592,49.921875 138.05102,75.4997122 138.05102,106.430408 C138.05102,137.361104 112.807592,162.523438 81.7772109,162.523438 C50.7468294,162.523438 25.5034014,137.361104 25.5034014,106.430408 C25.5034014,75.4997122 50.7468294,49.921875 81.7772109,49.921875 Z" id="path-3"></path>
+        <filter x="-4.3%" y="-2.3%" width="108.6%" height="106.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---What-is-a-Backlink---Mobile" transform="translate(-102.000000, -6643.000000)" fill-rule="nonzero">
+            <g id="img_authority_mob" transform="translate(106.000000, 6645.000000)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FF5254" xlink:href="#path-1"></use>
+                </g>
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FF5254" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

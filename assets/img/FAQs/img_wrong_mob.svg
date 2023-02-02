@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="261px" height="261px" viewBox="0 0 261 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_wrong_mob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.9%" y="-27.9%" width="155.7%" height="155.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---Why-Isn't-My-Website-Converting---Mobile" transform="translate(-58.000000, -2730.000000)">
+            <g id="img_wrong_mob" transform="translate(58.000000, 2730.000000)">
+                <circle id="Oval" fill="#FF5254" cx="130.5" cy="130.5" r="130.5"></circle>
+                <g id="Group-3" filter="url(#filter-1)" transform="translate(46.000000, 45.000000)" fill="#FFFFFF">
+                    <path d="M87.2705181,-19.4563608 C96.1426682,-19.4689812 103.345198,-12.2869134 103.357818,-3.41476326 C103.35784,-3.39952908 103.35784,-3.38429488 103.357818,-3.3690607 L103.10045,177.561063 C103.087783,186.465894 95.8721479,193.681529 86.9673168,193.694196 C78.0951667,193.706816 70.8926371,186.524748 70.8800167,177.652598 C70.879995,177.637364 70.879995,177.62213 70.8800167,177.606896 L71.1373853,-3.32322794 C71.1500522,-12.2280591 78.365687,-19.4436939 87.2705181,-19.4563608 Z" id="Rectangle" transform="translate(87.118917, 87.118917) rotate(-315.000000) translate(-87.118917, -87.118917) "></path>
+                    <path d="M86.9673168,-19.4563608 C95.8721479,-19.4436939 103.087783,-12.2280591 103.10045,-3.32322794 L103.357818,177.606896 C103.370439,186.479046 96.1883708,193.681575 87.3162207,193.694196 C87.3009865,193.694217 87.2857523,193.694217 87.2705181,193.694196 C78.365687,193.681529 71.1500522,186.465894 71.1373853,177.561063 L70.8800167,-3.3690607 C70.8673963,-12.2412108 78.0494641,-19.4437404 86.9216142,-19.4563608 C86.9368484,-19.4563825 86.9520826,-19.4563825 86.9673168,-19.4563608 Z" id="Rectangle" transform="translate(87.118917, 87.118917) rotate(-45.000000) translate(-87.118917, -87.118917) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

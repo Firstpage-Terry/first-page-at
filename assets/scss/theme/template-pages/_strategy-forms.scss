@@ -1,0 +1,515 @@
+.strategy-form-body {
+  background-color: $color-white;
+  .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .strategy-form-header {
+    display: flex;
+    margin-top: -32px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .strategy-form-container {
+    max-width: 1400px;
+    label {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      border: none;
+      /*border-radius: 1px !important;*/
+      -webkit-appearance: none !important;
+      box-shadow: $input-field-shadow !important;
+      -webkit-box-shadow: $input-field-shadow !important;
+      -moz-box-shadow: $input-field-shadow !important;
+      padding-left: 18px;
+      height: 70px;
+      border: $input-field-border;
+    }
+    .custom-form-check {
+      display: flex;
+      align-items: flex-end;
+    }
+    .custom-form-check-label {
+      margin-left: 20px;
+    }
+  }
+
+  .back-btn-holder {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    svg {
+      margin-top: -10px;
+    }
+  }
+
+  .strategy-form-back-btn {
+    font-size: 25px;
+    line-height: 30px;
+    @media only screen and (max-width: 426px) {
+      font-size: 20px;
+    }
+  }
+
+  #strategyForm {
+    background-color: $color-white;
+    margin: 30px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    @media only screen and (max-width: 1205px) {
+      width: 100% !important;
+      margin: 80px auto;
+      padding: 0 !important;
+    }
+    @media only screen and (max-width: 426px) {
+      padding: 10px;
+      width: 100% !important;
+    }
+  }
+
+  /*custom radio btn*/
+  /* Custom radio container */
+  .custom-radio-container {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    input   /* Hide the browser's default radio button */ {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      /* When the radio button is checked, add a blue background */
+      &:checked ~ .custom-radio {
+        background-color: $color-blue;
+        /* Show the indicator (dot/circle) when checked */
+        &:after {
+          display: block;
+        }
+      }
+    }
+    /* Style the indicator (dot/circle) */
+    .custom-radio:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: $color-white;
+    }
+  }
+
+  /* Create a custom radio button */
+  .custom-radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: $color-white;
+    border-radius: 50%;
+    box-shadow: $custom-radio-shadow;
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+  }
+
+  /*end custom radio btn*/
+
+  p.strategy-form-input-holder {
+    max-width: 658px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px !important;
+    font-weight: 600;
+    border: 1px solid $color-grey-border;
+    /* Mark input boxes that gets an error on validation: */
+    .invalid {
+      background-color: $color-invalid;
+    }
+  }
+
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+
+  .strategy-form-btn-holder {
+    max-width: 570px;
+    height: 88px;
+    margin: auto;
+  }
+
+  .strategy-form-next-btn {
+    background-color: $color-orange;
+    width: 100%;
+    height: 70px;
+    color: $color-white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 37px;
+    cursor: pointer;
+    letter-spacing: 5.16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    box-shadow: $form-next-btn-shadow;
+    @media (max-width: 750px) {
+      padding: 0;
+      font-size: 14px;
+      letter-spacing: 4.16px;
+    }
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: $color-step-bg;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  .step.active {
+    opacity: 1;
+  }
+
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: $color-step-finish;
+  }
+
+  /* css */
+  .logo-holder {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .sf-cross-holder {
+    display: none;
+    a {
+      color: $color-blue;
+    }
+  }
+
+  .strategy-form-progress {
+    width: 77%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px !important;
+  }
+
+  .strategy-form-progress-bar {
+    background-color: $color-blue !important;
+    border-radius: 6px !important;
+  }
+
+  .strategy-form-hero-text,
+  .strategy-form-hero-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: $color-strategy-from-text;
+  }
+
+  .strategy-form-main-text p {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: $color-strategy-from-text;
+    @media only screen and (max-width: 426px) {
+      font-size: 20px;
+    }
+  }
+
+  .marketing-type-selector-container {
+    /*display: flex;*/
+    /*align-items: center;*/
+    display: block;
+  }
+
+  p.marketing-type-text {
+    margin-top: 14px;
+    text-align: center;
+  }
+
+  .strategy-form-radio-container input {
+    width: 26px;
+    height: 100%;
+  }
+
+  .phone-promise-input-container .custom-form-check {
+    justify-content: center;
+  }
+
+  .icon-label {
+    height: 4.3rem;
+    width: 4.3rem;
+    display: flex;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+  }
+  .select-icon {
+    /*z-index: 10px;*/
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    margin: auto;
+    position: relative;
+  }
+
+  .select-checkbox {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    /*marketing icons*/
+    &:checked + .select-checkbox-bg {
+      /*background-color: #e9ecef;*/
+      background-color: #272727;
+      opacity: 0.2;
+    }
+  }
+
+  .select-checkbox-bg {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .seo-checkbox,
+  .google-ads-checkbox,
+  .fb-checkbox,
+  .print-checkbox,
+  .affiliate-checkbox,
+  .tv-checkbox,
+  .radio-checkbox,
+  .none-checkbox {
+    outline: none;
+    cursor: pointer;
+    /*display: block;*/
+    border: 0;
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    margin: auto;
+    text-align: center;
+    padding: 10px !important;
+    &:checked {
+      display: block;
+      background-color: #e9ecef;
+      color: $color-black;
+      width: auto;
+      height: 100%;
+      z-index: 3;
+    }
+  }
+
+  .seo-checkbox:after {
+    content: url("/img/search.svg");
+  }
+
+  .google-ads-checkbox:after {
+    content: url("/img/adwords.svg");
+  }
+
+  .fb-checkbox:after {
+    content: url("/img/facebook.svg");
+  }
+
+  .print-checkbox:after {
+    content: url("/img/print.svg");
+  }
+
+  .affiliate-checkbox:after {
+    content: url("/img/affiliate.svg");
+  }
+
+  .tv-checkbox:after {
+    content: url("/img/tv.svg");
+  }
+
+  .radio-checkbox:after {
+    content: url("/img/radio.svg");
+  }
+
+  .none-checkbox:after {
+    content: url("/img/none.svg");
+  }
+
+  /*end */
+
+  .tab.marketing-type-tab {
+    margin-bottom: 25px;
+  }
+
+  .budget-input-container,
+  .when-start-input-container {
+    width: 95%;
+    margin: auto;
+    @media only screen and (max-width: 769px) {
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  .strategy-form-client-review {
+    .carousel-control-next,
+    .carousel-control-prev {
+      border: none;
+      background-color: transparent;
+      color: $color-black;
+      @media only screen and (max-width: 426px) {
+        display: none;
+      }
+    }
+    padding-top: 0;
+  }
+
+  .sf-reviews-indicator {
+    border: none;
+    margin: 3px;
+  }
+
+  /*Pop up*/
+  /* The Modal (background) */
+  .sf-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: $color-sf-modal-bf;
+    h2 {
+      font-size: 24px;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+  }
+
+  /* Modal Content */
+  .sf-modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    position: absolute;
+    max-width: 400px;
+  }
+
+  /* The Close Button */
+  .sf-pop-close-btn {
+    color: $color-blue;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    &:hover,
+    &:focus {
+      color: $color-black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  .sf-pop-no-btn {
+    height: 56px;
+    width: 90%;
+    border: none;
+    display: block;
+    margin: auto;
+    color: $color-white;
+    border-radius: 4px;
+    background-color: $color-orange;
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .sf-pop-yes-btn {
+    height: 56px;
+    width: 90%;
+    border: none;
+    display: block;
+    margin: auto;
+    color: $color-white;
+    border-radius: 4px;
+    background-color: #d4d4d4;
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  /*end Pop up*/
+
+  span.sfErrorMessage {
+    font-size: 14px;
+    text-align: left;
+    display: block;
+  }
+
+  @media only screen and (max-width: 426px) {
+    .strategy-form-hero-text {
+      font-size: 27px;
+      line-height: 33px;
+    }
+
+    .logo-holder svg {
+      width: 160px;
+    }
+
+    section.section-client-reviews {
+      .testimonial {
+        .text {
+          &::before,
+          &::after {
+            right: -22px;
+          }
+        }
+      }
+    }
+
+    .strategy-form-header {
+      margin-top: -10px;
+    }
+  }
+
+  @media (max-width: 750) {
+    p.marketing-ideas {
+      font-size: 1rem !important;
+    }
+  }
+}

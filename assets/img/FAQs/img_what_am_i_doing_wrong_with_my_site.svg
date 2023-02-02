@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="397px" height="396px" viewBox="0 0 397 396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_what_am_i_doing_wrong_with_my_site</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.7060004%" y1="-48.1002727%" x2="50.824924%" y2="29.8376358%" id="linearGradient-1">
+            <stop stop-color="#80C3F3" offset="0%"></stop>
+            <stop stop-color="#4A90E2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---Why-Isn't-My-Website-Converting" transform="translate(-836.000000, -570.000000)" fill-rule="nonzero">
+            <g id="img_what_am_i_doing_wrong_with_my_site" transform="translate(836.000000, 570.000000)">
+                <path d="M198.5,0 C88.928,0 0,88.704 0,198 C0,307.296 88.928,396 198.5,396 C308.072,396 397,307.296 397,198 C397,88.704 308.072,0 198.5,0 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <g id="Group" transform="translate(120.000000, 73.000000)" fill="#FFFFFF">
+                    <path d="M80.9252844,0.594453782 C48.8308285,0.594453782 22.6433277,18.6262185 0.196898502,47.3581513 L37.8045124,82.4309244 C48.8308285,68.1640336 60.0540431,56.0768067 73.8369383,56.0768067 C85.0601529,56.0768067 97.661657,64.5973109 97.661657,78.2697479 C97.661657,97.8867227 46.4680465,116.31479 46.4680465,149.009748 L46.4680465,177.543529 L106.325191,177.543529 L106.325191,157.926555 C106.325191,136.526218 157.518802,125.231597 157.518802,79.0623529 C157.321903,30.9115966 123.652259,0.594453782 80.9252844,0.594453782 Z" id="Path"></path>
+                    <path d="M75.6090248,191.215966 C56.3129716,191.215966 40.7579899,206.869916 40.7579899,226.288739 C40.7579899,245.707563 56.3129716,261.361513 75.6090248,261.361513 C94.905078,261.361513 110.46006,245.707563 110.46006,226.288739 C110.46006,206.869916 94.7081795,191.215966 75.6090248,191.215966 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,65 @@
+
+section.section-terms {
+    padding: 30px 0;
+  }
+  section.section-terms .paper-back {
+    padding: 30px 25px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.05);
+  }
+  section.section-terms .paper-back h1,
+  section.section-terms .paper-back h2 {
+    color: #ff5254;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 4px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  section.section-terms .paper-back h3 {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 35px 0 20px;
+  }
+  section.section-terms .paper-back h3:first-of-type {
+    margin-top: 20px;
+  }
+  section.section-terms .paper-back p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  section.section-terms .paper-back ul,
+  section.section-terms .paper-back ol {
+    margin: 0;
+    padding: 0 0 0 15px;
+  }
+  section.section-terms .paper-back ul > li > ul,
+  section.section-terms .paper-back ul ol,
+  section.section-terms .paper-back ol > li > ul,
+  section.section-terms .paper-back ol ol {
+    margin-top: 10px;
+  }
+  section.section-terms .paper-back ul li,
+  section.section-terms .paper-back ol li {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  @media (min-width: 768px) {
+    section.section-terms {
+      padding: 55px 0;
+    }
+    section.section-terms .paper-back {
+      padding: 50px 45px;
+    }
+    section.section-terms .paper-back h1,
+    section.section-terms .paper-back h2 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+  }
+  

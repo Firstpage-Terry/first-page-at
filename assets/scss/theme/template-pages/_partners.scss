@@ -1,0 +1,107 @@
+.partners_data_row .col-12 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .partners_data_row hr {
+    width: 56%;
+    margin-top: 49px;
+    border-top: 1px solid #00225d;
+  }
+  section.section-paragraph .image-container-left {
+    text-align: center;
+
+    .partner_nick_img {
+        margin-bottom: 40px;
+    }
+  }
+  .partners_section_one {
+    padding-top: 50px;
+  }
+  .post__content .block {
+    padding: 0px !important;
+  }
+
+  @media (max-width: 992px){
+    h5 {
+      font-size: 20px;
+      line-height: 25px;
+      margin: 0 auto;
+      width: 70%;
+    }
+    .container {
+      max-width: 100%;
+    }
+    .partners_data_row {
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 576px){
+    .partners_data_row {
+      margin-top: 0px;
+    }
+  }
+
+  section.section-paragraph ol li, section.section-paragraph ul li {
+    margin-bottom: 10px;
+  }
+
+  section.partner-banner {
+    padding-bottom: 0px;
+    background-color: #427fe0;
+  }
+  
+  /* contact form */
+  
+  section.whoWeAreSection {
+    padding: 30px;
+  }
+  .form-title {
+    font-size: 35px !important;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+    color: #fff;
+  }
+  .partner-form .row {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+  }
+  .partner-form .row>div {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    margin-bottom: 15px;
+  }
+  .partner-form input.form-control {
+    color: #787878;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 12px 18px 0 rgb(0 0 0 / 15%);
+    min-height: 46px;
+    padding: 17px 21px !important;
+    height: auto;
+    width: 100%;
+  }
+  .partner-form {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+  }
+  .partner-form .fp-btn {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .partner-form {
+      max-width: 550px;
+    }
+  }
+
+  @media (min-width: 992px){
+    .partner-form {
+      max-width: 815px;
+    }
+  }

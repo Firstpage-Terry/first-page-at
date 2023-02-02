@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="261px" height="260px" viewBox="0 0 261 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_questions_seo_mob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.7060004%" y1="-47.8422739%" x2="50.824924%" y2="29.8906618%" id="linearGradient-1">
+            <stop stop-color="#80C3F3" offset="0%"></stop>
+            <stop stop-color="#4A90E2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---What-is-an-SEO-Agency---Mobile" transform="translate(-58.000000, -3881.000000)" fill-rule="nonzero">
+            <g id="img_questions_seo_mob" transform="translate(58.000000, 3881.000000)">
+                <path d="M130.5,0 C58.464,0 0,58.24 0,130 C0,201.76 58.464,260 130.5,260 C202.536,260 261,201.76 261,130 C261,58.24 202.536,0 130.5,0 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <g id="Group" transform="translate(79.000000, 48.000000)" fill="#FFFFFF">
+                    <path d="M53.2672758,0.387983193 C32.1418112,0.387983193 14.9044689,12.1568067 0.129604077,30.9093277 L24.8839828,53.8003361 C32.1418112,44.4887395 39.5292436,36.5997479 48.601529,36.5997479 C55.9889614,36.5997479 64.2836224,42.1608403 64.2836224,51.0844538 C64.2836224,63.8878992 30.5865622,75.9153782 30.5865622,97.2544538 L30.5865622,115.877647 L69.9862018,115.877647 L69.9862018,103.074202 C69.9862018,89.1068067 103.683262,81.7351261 103.683262,51.6017647 C103.553658,20.1751261 81.3913606,0.387983193 53.2672758,0.387983193 Z" id="Path"></path>
+                    <path d="M49.7679657,124.801261 C37.0667661,124.801261 26.828044,135.018151 26.828044,147.692269 C26.828044,160.366387 37.0667661,170.583277 49.7679657,170.583277 C62.4691653,170.583277 72.7078874,160.366387 72.7078874,147.692269 C72.7078874,135.018151 62.3395612,124.801261 49.7679657,124.801261 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

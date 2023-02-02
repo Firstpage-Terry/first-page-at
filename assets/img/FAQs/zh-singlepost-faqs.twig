@@ -1,0 +1,119 @@
+{% extends "zh-base.twig" %}
+
+{% block content %}
+
+<style>
+section.banner h1.wider, section.banner h2.wider {
+    max-width: 1000px !important;
+}
+.banner.faqs-banner {
+    padding-bottom: 113px;
+}
+.faq-h1 {
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-align: center;
+}
+.faqs-answer h2{
+    color: #427FE0 !important;
+    font-size: 45px !important;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 55px;
+}
+.faqs-answer p {
+    line-height: 23px;
+}
+</style>
+<!-- Banner -->
+<section class="banner faqs-banner">
+    <div class="container">
+        <h1 class="bold wider faq-h1">{{ post.title }}</h1>
+    </div>
+</section>
+
+<!-- Blogs Grid -->
+<section class="section-bloglist section-white">
+    <div class="container">
+        <div class="row mt-0 mt-md-4 faqs-answer">
+          
+            {{post.content}}
+
+        </div>
+    </div>
+</section>
+
+{% include "partials/zh-section-free-session.twig" %}
+
+<style>
+#elementor {width: 100%; } 
+.addtoany_content {display:none; } 
+.elementor-widget-container a[href]{ text-decoration: underline; }
+@media (min-width: 600px) {
+    .elementor-widget-image .elementor-image img { max-width: none !important;  }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner.faqs-banner {
+        padding-bottom: 60px !important;
+        padding-top: 120px !important;
+        margin-bottom: 20px;
+    }
+
+    .faq-h1 {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        line-height: 34px;
+        font-family: 'Lato';
+        font-weight: bold;
+    }
+    
+    .faqs-answer h2 {
+        font-size: 30px !important;
+        letter-spacing: -0.7px;
+        line-height: 40px !important;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Lato';
+        max-width: 345px;
+        margin: 0 auto !important;
+    }
+
+    .faqs-answer h3 {
+        font-size: 25px;
+        letter-spacing: -0.6px;
+        line-height: 30px;
+        font-weight: bold;
+        font-family: 'Lato';
+    }
+    
+    .section-bloglist {
+        padding-top: 0 !important;
+        padding-bottom: 30px !important;
+    }
+    .elementor-10500 .elementor-element.elementor-element-3715433 > .elementor-widget-container {
+        padding: 0 !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .faqs-answer h3 {
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 45px !important;
+        letter-spacing: -1px !important;
+        color: #427FE0 !important;
+    }
+    .faqs-answer h2 {
+        color: #427FE0 !important;
+        font-size: 45px !important;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 55px !important;
+        letter-spacing: -1.2px;
+    }
+}
+</style>
+{% endblock %}

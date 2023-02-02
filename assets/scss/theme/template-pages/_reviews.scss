@@ -1,0 +1,116 @@
+section.section-reviews {
+    padding: 20px 0 40px;
+  }
+  section.section-reviews .cust-review {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+    max-width: 910px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.section-reviews .cust-review h4 {
+    color: #3467d8;
+    /* font-family: "Open Sans"; */
+    font-size: 18px;
+    line-height: 1.36em;
+    margin-bottom: 0;
+  }
+  section.section-reviews .cust-review h4 span.rev-author {
+    font-weight: 700;
+  }
+  section.section-reviews .cust-review .rev-date {
+    white-space: nowrap;
+  }
+  section.section-reviews .cust-review .rev-comment {
+    position: relative;
+    padding: 0 0 0 45px;
+  }
+  section.section-reviews .cust-review .rev-comment:empty::before {
+    display: none;
+  }
+  section.section-reviews .cust-review .rev-comment::before {
+    content: "";
+    background: url("assets/img/icon-quote-red.png") no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 34px;
+    height: 27px;
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+    section.section-reviews .cust-review .rev-comment::before {
+      background-image: url("../img/icon-quote-red@2x.png");
+      background-size: 34px 27px;
+    }
+  }
+  @media (min-width: 768px) {
+    section.section-reviews {
+      padding: 20px 0 50px;
+    }
+    section.section-reviews .cust-review {
+      padding: 50px 0;
+    }
+    section.section-reviews .cust-review h4 {
+      font-size: 22px;
+    }
+    section.section-reviews .cust-review .rev-comment {
+      padding-top: 5px;
+    }
+    section.section-reviews .cust-review .rev-comment::before {
+      top: 10px;
+    }
+  }
+  
+  .rating-stars {
+    position: relative;
+    height: 20px;
+    display: inline-block;
+  }
+  .rating-stars.overall-stars {
+    height: 40px;
+  }
+  .rating-stars.overall-stars .star-rating svg,
+  .rating-stars.overall-stars .star-base svg {
+    width: 180px;
+    height: 40px;
+  }
+  .rating-stars .star-rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  .rating-stars .star-rating svg {
+    fill: #ffda00;
+  }
+  .rating-stars .star-base svg {
+    fill: rgba(0, 0, 0, 0.25);
+  }
+  .rating-stars .star-rating svg,
+  .rating-stars .star-base svg {
+    width: 90px;
+    height: 20px;
+    padding: 1px;
+  }
+  @media (min-width: 768px) {
+    .rating-stars {
+      height: 32px;
+    }
+    .rating-stars .star-rating svg,
+    .rating-stars .star-base svg {
+      width: 144px;
+      height: 32px;
+    }
+    .rating-stars.overall-stars {
+      height: 60px;
+    }
+    .rating-stars.overall-stars .star-rating svg,
+    .rating-stars.overall-stars .star-base svg {
+      width: 270px;
+      height: 60px;
+    }
+  }
+  

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="333px" height="198px" viewBox="0 0 333 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_duplicate_content_issues_mob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.6%" y="-22.5%" width="131.2%" height="145.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="30.6470434%" x2="100%" y2="69.3529566%" id="linearGradient-2">
+            <stop stop-color="#ADDBFF" offset="0%"></stop>
+            <stop stop-color="#AAD9FF" offset="0.0642956149%"></stop>
+            <stop stop-color="#74B5FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="30.6470434%" x2="100%" y2="69.3529566%" id="linearGradient-3">
+            <stop stop-color="#ADDBFF" offset="0%"></stop>
+            <stop stop-color="#74B5FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-15.6%" y="-22.5%" width="131.2%" height="145.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---Why-Isn't-My-Website-Showing-On-Google---Mobile" transform="translate(-21.000000, -6252.000000)">
+            <g id="img_duplicate_content_issues_mob" transform="translate(31.000000, 6257.000000)">
+                <g id="img_poor_website_content_mob">
+                    <g id="img_analyse_website">
+                        <g id="img_blogs" filter="url(#filter-1)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="188.665487" height="130.521672" rx="13"></rect>
+                            <path d="M13,0 L176,0 C183.179702,1.14348225e-14 189,5.82029825 189,13 L189,22.1450651 L189,22.1450651 L0,22.1450651 L0,13 C-8.79259876e-16,5.82029825 5.82029825,1.31888981e-15 13,0 Z" id="Rectangle-2" fill="#FF5254"></path>
+                            <polygon id="Fill-5" fill="#E9ECED" points="0 33.8886603 188.665487 33.8886603 188.665487 22.1450651 0 22.1450651"></polygon>
+                            <path d="M33.4513274,12.0795894 C33.4513274,13.7471125 32.1036333,15.098908 30.4411695,15.098908 C28.7787057,15.098908 27.4300885,13.7471125 27.4300885,12.0795894 C27.4300885,10.4120663 28.7787057,9.05934483 30.4411695,9.05934483 C32.1036333,9.05934483 33.4513274,10.4120663 33.4513274,12.0795894" id="Fill-6" fill="#FFFFFF"></path>
+                            <path d="M24.7539823,12.0795894 C24.7539823,13.7471125 23.4053651,15.098908 21.7429013,15.098908 C20.0804375,15.098908 18.7327434,13.7471125 18.7327434,12.0795894 C18.7327434,10.4120663 20.0804375,9.05934483 21.7429013,9.05934483 C23.4053651,9.05934483 24.7539823,10.4120663 24.7539823,12.0795894" id="Fill-7" fill="#FFFFFF"></path>
+                            <path d="M16.3911504,12.0795894 C16.3911504,13.7471125 15.0434563,15.098908 13.3800694,15.098908 C11.7176056,15.098908 10.3699115,13.7471125 10.3699115,12.0795894 C10.3699115,10.4120663 11.7176056,9.05934483 13.3800694,9.05934483 C15.0434563,9.05934483 16.3911504,10.4120663 16.3911504,12.0795894" id="Fill-8" fill="#FFFFFF"></path>
+                            <path d="M41.1502228,9.73040741 L159.223229,9.73040741 C160.149773,9.73040741 160.900885,10.4815198 160.900885,11.4080639 C160.900885,12.3346079 160.149773,13.0857203 159.223229,13.0857203 L41.1502228,13.0857203 C40.2236787,13.0857203 39.4725664,12.3346079 39.4725664,11.4080639 C39.4725664,10.4815198 40.2236787,9.73040741 41.1502228,9.73040741 Z" id="Rectangle-3" fill="#FFFFFF"></path>
+                            <polygon id="Fill-10" fill="#FFFFFF" points="172.440621 7.71721967 173.111877 9.76778244 175.284956 9.76778244 173.526675 11.0351575 174.198902 13.0857203 172.440621 11.8183452 170.683313 13.0857203 171.354568 11.0351575 169.59823 9.76778244 171.770338 9.76778244"></polygon>
+                            <g id="Group-7" transform="translate(74.261947, 49.658631)" fill="#DADFE1">
+                                <polygon id="Fill-16" points="0 23.4871903 53.8015409 23.4871903 53.8015409 19.376932 0 19.376932"></polygon>
+                                <polygon id="Fill-17" points="0 13.5051344 76.3634774 13.5051344 76.3634774 9.39487612 0 9.39487612"></polygon>
+                                <polygon id="Fill-18" points="0 4.1102583 98.3469027 4.1102583 98.3469027 0 0 0"></polygon>
+                            </g>
+                            <g id="Group-7-Copy" transform="translate(74.261947, 89.922386)" fill="#DADFE1">
+                                <polygon id="Fill-16" points="0 23.4871903 53.8015409 23.4871903 53.8015409 19.376932 0 19.376932"></polygon>
+                                <polygon id="Fill-17" points="0 13.5051344 76.3634774 13.5051344 76.3634774 9.39487612 0 9.39487612"></polygon>
+                                <polygon id="Fill-18" points="0 4.1102583 98.3469027 4.1102583 98.3469027 0 0 0"></polygon>
+                            </g>
+                            <rect id="Rectangle-4" fill="url(#linearGradient-2)" x="12.0424779" y="44.9611929" width="52.8530973" height="32.8820664"></rect>
+                            <rect id="Rectangle-4-Copy" fill="url(#linearGradient-3)" x="12.0424779" y="84.8894164" width="52.8530973" height="32.8820664"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="img_poor_website_content_mob" transform="translate(124.000000, 47.000000)">
+                    <g id="img_analyse_website">
+                        <g id="img_blogs" filter="url(#filter-4)">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="188.665487" height="130.521672" rx="13"></rect>
+                            <path d="M13,0 L176,0 C183.179702,1.14348225e-14 189,5.82029825 189,13 L189,22.1450651 L189,22.1450651 L0,22.1450651 L0,13 C-8.79259876e-16,5.82029825 5.82029825,1.31888981e-15 13,0 Z" id="Rectangle-2" fill="#FF5254"></path>
+                            <polygon id="Fill-5" fill="#E9ECED" points="0 33.8886603 188.665487 33.8886603 188.665487 22.1450651 0 22.1450651"></polygon>
+                            <path d="M33.4513274,12.0795894 C33.4513274,13.7471125 32.1036333,15.098908 30.4411695,15.098908 C28.7787057,15.098908 27.4300885,13.7471125 27.4300885,12.0795894 C27.4300885,10.4120663 28.7787057,9.05934483 30.4411695,9.05934483 C32.1036333,9.05934483 33.4513274,10.4120663 33.4513274,12.0795894" id="Fill-6" fill="#FFFFFF"></path>
+                            <path d="M24.7539823,12.0795894 C24.7539823,13.7471125 23.4053651,15.098908 21.7429013,15.098908 C20.0804375,15.098908 18.7327434,13.7471125 18.7327434,12.0795894 C18.7327434,10.4120663 20.0804375,9.05934483 21.7429013,9.05934483 C23.4053651,9.05934483 24.7539823,10.4120663 24.7539823,12.0795894" id="Fill-7" fill="#FFFFFF"></path>
+                            <path d="M16.3911504,12.0795894 C16.3911504,13.7471125 15.0434563,15.098908 13.3800694,15.098908 C11.7176056,15.098908 10.3699115,13.7471125 10.3699115,12.0795894 C10.3699115,10.4120663 11.7176056,9.05934483 13.3800694,9.05934483 C15.0434563,9.05934483 16.3911504,10.4120663 16.3911504,12.0795894" id="Fill-8" fill="#FFFFFF"></path>
+                            <path d="M41.1502228,9.73040741 L159.223229,9.73040741 C160.149773,9.73040741 160.900885,10.4815198 160.900885,11.4080639 C160.900885,12.3346079 160.149773,13.0857203 159.223229,13.0857203 L41.1502228,13.0857203 C40.2236787,13.0857203 39.4725664,12.3346079 39.4725664,11.4080639 C39.4725664,10.4815198 40.2236787,9.73040741 41.1502228,9.73040741 Z" id="Rectangle-3" fill="#FFFFFF"></path>
+                            <polygon id="Fill-10" fill="#FFFFFF" points="172.440621 7.71721967 173.111877 9.76778244 175.284956 9.76778244 173.526675 11.0351575 174.198902 13.0857203 172.440621 11.8183452 170.683313 13.0857203 171.354568 11.0351575 169.59823 9.76778244 171.770338 9.76778244"></polygon>
+                            <g id="Group-7" transform="translate(74.261947, 49.658631)" fill="#DADFE1">
+                                <polygon id="Fill-16" points="0 23.4871903 53.8015409 23.4871903 53.8015409 19.376932 0 19.376932"></polygon>
+                                <polygon id="Fill-17" points="0 13.5051344 76.3634774 13.5051344 76.3634774 9.39487612 0 9.39487612"></polygon>
+                                <polygon id="Fill-18" points="0 4.1102583 98.3469027 4.1102583 98.3469027 0 0 0"></polygon>
+                            </g>
+                            <g id="Group-7-Copy" transform="translate(74.261947, 89.922386)" fill="#DADFE1">
+                                <polygon id="Fill-16" points="0 23.4871903 53.8015409 23.4871903 53.8015409 19.376932 0 19.376932"></polygon>
+                                <polygon id="Fill-17" points="0 13.5051344 76.3634774 13.5051344 76.3634774 9.39487612 0 9.39487612"></polygon>
+                                <polygon id="Fill-18" points="0 4.1102583 98.3469027 4.1102583 98.3469027 0 0 0"></polygon>
+                            </g>
+                            <rect id="Rectangle-4" fill="url(#linearGradient-2)" x="12.0424779" y="44.9611929" width="52.8530973" height="32.8820664"></rect>
+                            <rect id="Rectangle-4-Copy" fill="url(#linearGradient-3)" x="12.0424779" y="84.8894164" width="52.8530973" height="32.8820664"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

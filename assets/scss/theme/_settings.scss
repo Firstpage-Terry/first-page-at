@@ -1,0 +1,96 @@
+$responsive-ip6: 375px;
+$responsive-sm: 576px;
+$responsive-md: 768px;
+$responsive-lg: 992px;
+$responsive-xl: 1200px;
+
+$responsive-qhd: 1440px;
+$responsive-wq: 2560px;
+
+/* H1 Dynamic Width */
+$h1-dw: clamp(2rem, calc(0.75rem + 4vw), 3.25rem);
+
+/* H2 Dynamic Width */
+$h2-dw: clamp(1.75rem, calc(0.75rem + 4vw), 2.5rem);
+
+$font-size: 15px;
+$font-family: proxima-nova, sans-serif;
+
+$color-text: #00225d;
+$color-text-grey: #a0a0a0;
+$color-text-light: #c7c7c7;
+$color-text-dark: #787878;
+$color-text-cloud: #bedbff;
+$color-blue: #427fe0;
+$color-blue1: #3a6db8;
+$color-blue2: #427fdb;
+$color-cloud: #74b5ff;
+$color-red: #fc3943;
+$color-orange: #ff5254;
+$color-grey: #eeeeee;
+$color-light: #f9f9f9;
+$color-black: #000000;
+$color-white: #ffffff;
+
+/* Strategy Form Use START*/
+$color-grey-border: #aaaaaa;
+$color-invalid: #ffdddd;
+$color-step-bg: #bbbbbb;
+$color-step-finish: #04aa6d;
+$color-strategy-from-text: #00225d;
+$color-sf-modal-bf: rgba(19, 69, 149, 0.82);
+
+$custom-radio-shadow: 0 2px 4px 0 rgb($color-black, 0.5);
+$form-next-btn-shadow: 0 12px 18px 0 rgba($color-black, 0.15);
+$input-field-shadow: 0px 0px 14px 4px #dddddd;
+$input-field-border: 1px solid #d2d1d1c7;
+/* Strategy Form Use END*/
+
+/***********************/
+/* ANIMATION           */
+/***********************/
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(217, 217, 217, 0);
+  }
+}
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(217, 217, 217, 0);
+  }
+}
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(217, 217, 217, 0);
+  }
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 45px rgba(217, 217, 217, 0);
+  }
+}
+
+@keyframes bar-move {
+  0% {
+    background-position: 32px 32px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.pulse-btn {
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  box-shadow: 0 0 0 0 rgba(217, 217, 217, 0.7);
+}
+
+.pulse-btn:hover {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+}

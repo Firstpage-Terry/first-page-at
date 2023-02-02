@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="282px" height="341px" viewBox="0 0 282 341" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>47BE6626-8211-47A8-9259-34D630270616</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="70.8074396%" y1="91.6492809%" x2="25.2852006%" y2="6.51189631%" id="linearGradient-1">
+            <stop stop-color="#DA3E3F" offset="0%"></stop>
+            <stop stop-color="#FF5254" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Organic-Social-Media" transform="translate(-860.000000, -3707.000000)">
+            <g id="img_no_1" transform="translate(860.000000, 3707.000000)">
+                <circle id="Oval-2" fill="url(#linearGradient-1)" cx="140.8" cy="140.8" r="140.8"></circle>
+                <ellipse id="Oval-4" fill="#000000" opacity="0.05" cx="136.42792" cy="329.380662" rx="108.631579" ry="11.1940928"></ellipse>
+                <text id="1" font-family="Lato-Black, Lato" font-size="160" font-weight="700" fill="#FFFFFF">
+                    <tspan x="117.6" y="191.6">1</tspan>
+                </text>
+                <text id="#" font-family="Lato-Black, Lato" font-size="96" font-weight="700" fill="#FFFFFF">
+                    <tspan x="67.2" y="175">#</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

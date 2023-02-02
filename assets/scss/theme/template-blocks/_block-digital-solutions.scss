@@ -1,0 +1,92 @@
+.section-digital-solutions{
+    background:linear-gradient(#427FDF,#427FDF)0 calc(80% - 0px)/100% 40% no-repeat,0 0;
+}
+
+
+@media(max-width: $responsive-md){	
+	.section-digital-solutions{
+		background:none;
+	}
+    .section-digital-solutions .row .col-12{
+        margin-bottom: 30px;
+    }
+}
+
+
+.section-digital-solutions a.card,
+.section-digital-solutions a.card:hover {
+    color: #00225d;
+    text-decoration: none;
+}
+
+.section-digital-solutions .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 4px 15px 0 rgba(0, 0, 0, .3);
+    height: 100%
+}
+
+.section-digital-solutions .card img {
+    margin: 50px auto 15px auto;
+}
+
+.section-digital-solutions .card .card-body {
+    padding: 15px 15px 30px 15px;
+}
+
+@media (min-width:992px) {
+    .section-digital-solutions .card .card-body {
+        padding: 15px 15px 30px 15px;
+    }
+}
+
+.section-digital-solutions .card .card-body .card-text,
+.section-digital-solutions .card .card-body ul.tick {
+    padding: 0 15px;
+}
+
+.section-digital-solutions .card .card-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-digital-solutions .card h3 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.section-digital-solutions .card h4 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.section-digital-solutions .card .card-text {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.section-digital-solutions .card .card-footer {
+    padding: 0 15px 30px 15px;
+    background-color: transparent;
+    border-top: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2.4px;
+    color: #ff5254;
+}
+
+.section-digital-solutions .card .card-footer a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2.4px;
+}
+
+@media (min-width:768px) {
+    .section-digital-solutions .card-text.min-height {
+        min-height: 225px;
+    }
+}

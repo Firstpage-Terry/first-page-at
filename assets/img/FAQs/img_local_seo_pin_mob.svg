@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="326px" viewBox="0 0 250 326" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_local_seo_pin_mob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="61.8162817%" y1="94.8096742%" x2="37.5304984%" y2="15.2167138%" id="linearGradient-1">
+            <stop stop-color="#DA3E3F" offset="0%"></stop>
+            <stop stop-color="#FF5254" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-27.2%" y="-235.7%" width="154.4%" height="571.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="16.5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---What's-Google-My-Business---Mobile" transform="translate(-63.000000, -3999.000000)">
+            <g id="img_local_seo_pin_mob" transform="translate(97.000000, 3999.000000)">
+                <path d="M91.5,0 C141.48177,0 182,40.5544976 182,90.5810056 C182,123.932011 151.833333,174.405009 91.5,242 C31.1666667,174.405009 1,123.932011 1,90.5810056 C1,40.5544976 41.5182301,0 91.5,0 Z M91.5,50.2021277 C69.6218587,50.2021277 51.886121,67.9237927 51.886121,89.7845745 C51.886121,111.645356 69.6218587,129.367021 91.5,129.367021 C113.378141,129.367021 131.113879,111.645356 131.113879,89.7845745 C131.113879,67.9237927 113.378141,50.2021277 91.5,50.2021277 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M91,242 C151,174.462298 181,124.032078 181,90.7093391 C181,66.9447975 171.891657,45.3195423 156.99402,29.1712172 C149.906342,21.4885147 179.086833,51.8314044 162.761288,113.448494 C156.818448,135.878401 132.898019,178.728903 91,242 Z" id="Oval-10" fill-opacity="0.05" fill="#000000"></path>
+                <ellipse id="Oval-4" fill="#000000" opacity="0.08" filter="url(#filter-2)" cx="91" cy="274.5" rx="91" ry="10.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

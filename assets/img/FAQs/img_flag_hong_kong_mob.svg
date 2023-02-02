@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="271px" height="183px" viewBox="0 0 271 183" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_flag_hong_kong_mob</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.6%" y="-6.9%" width="109.1%" height="113.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---How-&amp;-Where-To-Sell-Online-in-Singapore---Mobile" transform="translate(-54.000000, -805.000000)" fill-rule="nonzero">
+            <g id="img_flag_hong_kong_mob" filter="url(#filter-1)" transform="translate(58.000000, 807.000000)">
+                <rect id="Rectangle" fill="#D80027" x="0" y="0" width="263" height="175"></rect>
+                <g id="Group" transform="translate(89.000000, 43.000000)" fill="#F0F0F0">
+                    <path d="M51.2669474,23.8989474 C49.2712515,32.2007953 45.7244912,30.6178246 43.9840468,37.8580117 C33.7323041,35.3934971 27.4179181,25.0836023 29.8829474,14.8303158 C32.3469474,4.5785731 42.6573567,-1.73581287 52.909614,0.728701754 C49.4282105,15.2095906 53.0521637,16.4734971 51.2669474,23.8989474 Z" id="Path"></path>
+                    <path d="M24.6626433,30.0507135 C31.9419415,34.5145263 29.3395088,37.3984561 35.687345,41.2910409 C30.1747368,50.2799064 18.4192749,53.0984795 9.42989474,47.5858713 C0.44102924,42.0737778 -2.37805848,30.3172865 3.13454971,21.3284211 C15.8307368,29.1141053 18.1516725,26.0582924 24.6626433,30.0507135 Z" id="Path"></path>
+                    <path d="M22.2923041,57.2540351 C28.7873216,51.7105497 30.7253801,55.0761637 36.3892865,50.2418246 C43.2352749,58.2621754 42.2827135,70.3135439 34.2628772,77.1595322 C26.2420117,84.0055205 14.1906433,83.0524444 7.34516959,75.0326082 C18.6724678,65.3649591 16.4832749,62.2123977 22.2923041,57.2540351 Z" id="Path"></path>
+                    <path d="M47.4325146,67.9149006 C44.1662222,60.0252632 47.9661754,59.2209123 45.1198129,52.3409591 C54.8631111,48.3089123 66.0308772,52.9384327 70.0639532,62.681731 C74.096,72.4250292 69.4659649,83.5927953 59.7226667,87.6253567 C54.0268538,73.8644211 50.3529825,74.9723977 47.4325146,67.9149006 Z" id="Path"></path>
+                    <path d="M65.3397427,47.2997427 C56.8269006,47.9677193 57.2360234,44.1044678 49.8131462,44.6870175 C48.9887251,34.1748772 56.8428538,24.9842807 67.3555088,24.1588304 C77.8676491,23.3359532 87.0582456,31.1900819 87.8826667,41.7022222 C73.0353684,42.8662924 72.9525146,46.7032982 65.3397427,47.2997427 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

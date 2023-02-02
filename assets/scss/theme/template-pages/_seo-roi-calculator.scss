@@ -1,0 +1,691 @@
+.page-template-facebook-interest-finder section.banner,
+.page-template-ppc-roi-calculator section.banner,
+.page-template-seo-roi-calculator section.banner {
+    background: linear-gradient(225deg, #427fdf 0, #396bb1 100%);
+}
+.page-template-facebook-interest-finder section.banner .container,
+.page-template-ppc-roi-calculator section.banner .container,
+.page-template-seo-roi-calculator section.banner .container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.page-template-facebook-interest-finder section.banner .container .row img,
+.page-template-ppc-roi-calculator section.banner .container .row img,
+.page-template-seo-roi-calculator section.banner .container .row img {
+    margin: auto 0;
+    margin-top: 20px;
+}
+.page-template-facebook-interest-finder .fp-container,
+.page-template-ppc-roi-calculator .fp-container,
+.page-template-seo-roi-calculator .fp-container {
+    max-width: 1080px;
+}
+.page-template-facebook-interest-finder .fb-container,
+.page-template-ppc-roi-calculator .fb-container,
+.page-template-seo-roi-calculator .fb-container {
+    max-width: 1080px;
+}
+.page-template-facebook-interest-finder .switch-container,
+.page-template-ppc-roi-calculator .switch-container,
+.page-template-seo-roi-calculator .switch-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-template-facebook-interest-finder section.banner h1,
+.page-template-ppc-roi-calculator section.banner h1,
+.page-template-seo-roi-calculator section.banner h1 {
+    padding: 0;
+    letter-spacing: normal;
+    font-size: 50px;
+    line-height: 54px;
+}
+.page-template-facebook-interest-finder section.banner p,
+.page-template-ppc-roi-calculator section.banner p,
+.page-template-seo-roi-calculator section.banner p {
+    font-size: 22px;
+    line-height: 25px;
+}
+@media (max-width: 768px) {
+    .page-template-facebook-interest-finder section.banner p,
+    .page-template-ppc-roi-calculator section.banner p,
+    .page-template-seo-roi-calculator section.banner p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+.page-template-facebook-interest-finder #fp-roi-calculator .fp-container.roi-for-section,
+.page-template-ppc-roi-calculator #fp-roi-calculator .fp-container.roi-for-section,
+.page-template-seo-roi-calculator #fp-roi-calculator .fp-container.roi-for-section {
+    padding: 0 15px;
+}
+.page-template-facebook-interest-finder #fp-roi-calculator .fp-container.roi-for-section .row.mx-0,
+.page-template-ppc-roi-calculator #fp-roi-calculator .fp-container.roi-for-section .row.mx-0,
+.page-template-seo-roi-calculator #fp-roi-calculator .fp-container.roi-for-section .row.mx-0 {
+    border-radius: 10px;
+}
+.page-template-facebook-interest-finder #fp-roi-calculator .facebook-box-shadow,
+.page-template-ppc-roi-calculator #fp-roi-calculator .facebook-box-shadow,
+.page-template-seo-roi-calculator #fp-roi-calculator .facebook-box-shadow {
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 20px #80808014;
+}
+.page-template-facebook-interest-finder .fp-container.roi-for-section + .fp-container.roi-for-section,
+.page-template-ppc-roi-calculator .fp-container.roi-for-section + .fp-container.roi-for-section,
+.page-template-seo-roi-calculator .fp-container.roi-for-section + .fp-container.roi-for-section {
+    margin-top: 50px;
+}
+.page-template-facebook-interest-finder .fp-text,
+.page-template-ppc-roi-calculator .fp-text,
+.page-template-seo-roi-calculator .fp-text {
+    text-align: left;
+}
+.page-template-facebook-interest-finder .fp-container label,
+.page-template-ppc-roi-calculator .fp-container label,
+.page-template-seo-roi-calculator .fp-container label {
+    margin: 2px;
+    font-weight: 700;
+    clear: both;
+    color: #666;
+    font-size: 15px;
+    line-height: 18px;
+}
+.page-template-facebook-interest-finder .fp-container label > img,
+.page-template-ppc-roi-calculator .fp-container label > img,
+.page-template-seo-roi-calculator .fp-container label > img {
+    cursor: pointer;
+}
+.page-template-facebook-interest-finder .fp-container .spml,
+.page-template-ppc-roi-calculator .fp-container .spml,
+.page-template-seo-roi-calculator .fp-container .spml {
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.page-template-facebook-interest-finder .fp-container .show-pmc,
+.page-template-ppc-roi-calculator .fp-container .show-pmc,
+.page-template-seo-roi-calculator .fp-container .show-pmc {
+    align-items: baseline;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+.page-template-facebook-interest-finder .footer-roi,
+.page-template-ppc-roi-calculator .footer-roi,
+.page-template-seo-roi-calculator .footer-roi {
+    color: #aaa;
+}
+.page-template-facebook-interest-finder .fp-container .badge,
+.page-template-ppc-roi-calculator .fp-container .badge,
+.page-template-seo-roi-calculator .fp-container .badge {
+    font-size: inherit;
+}
+.page-template-facebook-interest-finder .fp-container .list-group-item,
+.page-template-ppc-roi-calculator .fp-container .list-group-item,
+.page-template-seo-roi-calculator .fp-container .list-group-item {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    border-top: 0;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #fff;
+}
+.page-template-facebook-interest-finder .fp-container .list-group-item.monthly-roi,
+.page-template-ppc-roi-calculator .fp-container .list-group-item.monthly-roi,
+.page-template-seo-roi-calculator .fp-container .list-group-item.monthly-roi {
+    border-bottom: none;
+}
+.page-template-facebook-interest-finder .fp-container .list-group .list-group-item.monthly-roi .badge-pill,
+.page-template-ppc-roi-calculator .fp-container .list-group .list-group-item.monthly-roi .badge-pill,
+.page-template-seo-roi-calculator .fp-container .list-group .list-group-item.monthly-roi .badge-pill {
+    padding: 10px 0;
+}
+.page-template-facebook-interest-finder .fp-container .list-group .badge-pill,
+.page-template-ppc-roi-calculator .fp-container .list-group .badge-pill,
+.page-template-seo-roi-calculator .fp-container .list-group .badge-pill {
+    background: 0 0;
+}
+.page-template-facebook-interest-finder .fp-container .fp-show-value,
+.page-template-ppc-roi-calculator .fp-container .fp-show-value,
+.page-template-seo-roi-calculator .fp-container .fp-show-value {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #427fe0;
+}
+.page-template-facebook-interest-finder .more-margin-150,
+.page-template-ppc-roi-calculator .more-margin-150,
+.page-template-seo-roi-calculator .more-margin-150 {
+    margin-top: 120px;
+}
+.page-template-facebook-interest-finder .fp-container .fp-text,
+.page-template-ppc-roi-calculator .fp-container .fp-text,
+.page-template-seo-roi-calculator .fp-container .fp-text {
+    padding: 15px 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.page-template-facebook-interest-finder .fp-hide-block,
+.page-template-ppc-roi-calculator .fp-hide-block,
+.page-template-seo-roi-calculator .fp-hide-block {
+    display: none !important;
+}
+.page-template-facebook-interest-finder .fp-shadow-left,
+.page-template-ppc-roi-calculator .fp-shadow-left,
+.page-template-seo-roi-calculator .fp-shadow-left {
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.075);
+}
+.page-template-facebook-interest-finder .fp-border-radius-left,
+.page-template-ppc-roi-calculator .fp-border-radius-left,
+.page-template-seo-roi-calculator .fp-border-radius-left {
+    background: #fff;
+}
+.page-template-facebook-interest-finder .fp-shadow-right,
+.page-template-ppc-roi-calculator .fp-shadow-right,
+.page-template-seo-roi-calculator .fp-shadow-right {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.page-template-facebook-interest-finder .fp-border-radius-right,
+.page-template-ppc-roi-calculator .fp-border-radius-right,
+.page-template-seo-roi-calculator .fp-border-radius-right {
+    background: #427fe0;
+    color: #fff;
+}
+.page-template-facebook-interest-finder .fp-bg-color,
+.page-template-ppc-roi-calculator .fp-bg-color,
+.page-template-seo-roi-calculator .fp-bg-color {
+    background: #427fe0;
+}
+.page-template-facebook-interest-finder .fp-logo,
+.page-template-ppc-roi-calculator .fp-logo,
+.page-template-seo-roi-calculator .fp-logo {
+    margin: 0 auto;
+    width: 212px;
+    height: 38px;
+    margin: 20px 0;
+}
+.page-template-facebook-interest-finder .fp-slider,
+.page-template-ppc-roi-calculator .fp-slider,
+.page-template-seo-roi-calculator .fp-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: #b1adad;
+    outline: 0;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+.page-template-facebook-interest-finder .fp-slider::-webkit-slider-thumb,
+.page-template-ppc-roi-calculator .fp-slider::-webkit-slider-thumb,
+.page-template-seo-roi-calculator .fp-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+.page-template-facebook-interest-finder .fp-slider::-moz-range-thumb,
+.page-template-ppc-roi-calculator .fp-slider::-moz-range-thumb,
+.page-template-seo-roi-calculator .fp-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+.page-template-facebook-interest-finder .fp-vertical-align,
+.page-template-ppc-roi-calculator .fp-vertical-align,
+.page-template-seo-roi-calculator .fp-vertical-align {
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .page-template-facebook-interest-finder .fp-vertical-align > .col-md-4,
+    .page-template-ppc-roi-calculator .fp-vertical-align > .col-md-4,
+    .page-template-seo-roi-calculator .fp-vertical-align > .col-md-4 {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .page-template-facebook-interest-finder .fp-vertical-align > .col-md-6,
+    .page-template-ppc-roi-calculator .fp-vertical-align > .col-md-6,
+    .page-template-seo-roi-calculator .fp-vertical-align > .col-md-6 {
+        -ms-flex: 0 0 43.333333%;
+        flex: 0 0 43.333333%;
+        max-width: 43.333333%;
+    }
+}
+.page-template-facebook-interest-finder .fp-container .switch,
+.page-template-ppc-roi-calculator .fp-container .switch,
+.page-template-seo-roi-calculator .fp-container .switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 28px;
+}
+.page-template-facebook-interest-finder .fp-container .switch input,
+.page-template-ppc-roi-calculator .fp-container .switch input,
+.page-template-seo-roi-calculator .fp-container .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.page-template-facebook-interest-finder .fp-container .switch-slider,
+.page-template-ppc-roi-calculator .fp-container .switch-slider,
+.page-template-seo-roi-calculator .fp-container .switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.page-template-facebook-interest-finder .fp-container .switch-slider:before,
+.page-template-ppc-roi-calculator .fp-container .switch-slider:before,
+.page-template-seo-roi-calculator .fp-container .switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.page-template-facebook-interest-finder .fp-container input:checked + .switch-slider,
+.page-template-ppc-roi-calculator .fp-container input:checked + .switch-slider,
+.page-template-seo-roi-calculator .fp-container input:checked + .switch-slider {
+    background-color: #ff5254;
+}
+.page-template-facebook-interest-finder .fp-container input:focus + .switch-slider,
+.page-template-ppc-roi-calculator .fp-container input:focus + .switch-slider,
+.page-template-seo-roi-calculator .fp-container input:focus + .switch-slider {
+    box-shadow: 0 0 1px #ff5254;
+}
+.page-template-facebook-interest-finder .fp-container input:checked + .switch-slider:before,
+.page-template-ppc-roi-calculator .fp-container input:checked + .switch-slider:before,
+.page-template-seo-roi-calculator .fp-container input:checked + .switch-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.page-template-facebook-interest-finder .fp-container .switch-slider.round,
+.page-template-ppc-roi-calculator .fp-container .switch-slider.round,
+.page-template-seo-roi-calculator .fp-container .switch-slider.round {
+    border-radius: 34px;
+}
+.page-template-facebook-interest-finder .fp-container .switch-slider.round:before,
+.page-template-ppc-roi-calculator .fp-container .switch-slider.round:before,
+.page-template-seo-roi-calculator .fp-container .switch-slider.round:before {
+    border-radius: 50%;
+}
+.page-template-facebook-interest-finder .fp-dropbtn,
+.page-template-ppc-roi-calculator .fp-dropbtn,
+.page-template-seo-roi-calculator .fp-dropbtn {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.page-template-facebook-interest-finder .fp-dropbtn .fa,
+.page-template-ppc-roi-calculator .fp-dropbtn .fa,
+.page-template-seo-roi-calculator .fp-dropbtn .fa {
+    font-size: 24px;
+}
+.page-template-facebook-interest-finder .fp-dropbtn:focus,
+.page-template-facebook-interest-finder .fp-dropbtn:hover,
+.page-template-ppc-roi-calculator .fp-dropbtn:focus,
+.page-template-ppc-roi-calculator .fp-dropbtn:hover,
+.page-template-seo-roi-calculator .fp-dropbtn:focus,
+.page-template-seo-roi-calculator .fp-dropbtn:hover {
+    background-color: #2980b9;
+}
+.page-template-facebook-interest-finder .fp-dropdown,
+.page-template-ppc-roi-calculator .fp-dropdown,
+.page-template-seo-roi-calculator .fp-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.page-template-facebook-interest-finder .fp-dropdown-content,
+.page-template-ppc-roi-calculator .fp-dropdown-content,
+.page-template-seo-roi-calculator .fp-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.page-template-facebook-interest-finder .fp-dropdown-content a,
+.page-template-ppc-roi-calculator .fp-dropdown-content a,
+.page-template-seo-roi-calculator .fp-dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.page-template-facebook-interest-finder .seo-cal-based-title,
+.page-template-ppc-roi-calculator .seo-cal-based-title,
+.page-template-seo-roi-calculator .seo-cal-based-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.page-template-facebook-interest-finder .monthly-roi .badge.badge-primary.badge-pill,
+.page-template-facebook-interest-finder .monthly-roi-label,
+.page-template-ppc-roi-calculator .monthly-roi .badge.badge-primary.badge-pill,
+.page-template-ppc-roi-calculator .monthly-roi-label,
+.page-template-seo-roi-calculator .monthly-roi .badge.badge-primary.badge-pill,
+.page-template-seo-roi-calculator .monthly-roi-label {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+.page-template-facebook-interest-finder .monthly-roi-container,
+.page-template-ppc-roi-calculator .monthly-roi-container,
+.page-template-seo-roi-calculator .monthly-roi-container {
+    margin-top: 30px;
+}
+.page-template-facebook-interest-finder .fp-calculator-footer-text,
+.page-template-ppc-roi-calculator .fp-calculator-footer-text,
+.page-template-seo-roi-calculator .fp-calculator-footer-text {
+    margin-top: 30px;
+}
+.page-template-facebook-interest-finder .fp-calculator-footer-text p,
+.page-template-ppc-roi-calculator .fp-calculator-footer-text p,
+.page-template-seo-roi-calculator .fp-calculator-footer-text p {
+    color: #666;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 13px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.page-template-facebook-interest-finder .border-right,
+.page-template-ppc-roi-calculator .border-right,
+.page-template-seo-roi-calculator .border-right {
+    border-right: 1px solid #f8f8f8 !important;
+}
+@media (min-width: 768px) {
+    .page-template-facebook-interest-finder section.shaded-white,
+    .page-template-ppc-roi-calculator section.shaded-white,
+    .page-template-seo-roi-calculator section.shaded-white {
+        padding-top: 0;
+    }
+    .page-template-facebook-interest-finder section.banner p,
+    .page-template-ppc-roi-calculator section.banner p,
+    .page-template-seo-roi-calculator section.banner p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .page-template-facebook-interest-finder #fp-roi-calculator .fp-container.roi-for-section,
+    .page-template-ppc-roi-calculator #fp-roi-calculator .fp-container.roi-for-section,
+    .page-template-seo-roi-calculator #fp-roi-calculator .fp-container.roi-for-section {
+        padding: 40px 50px;
+        margin-bottom: 50px;
+    }
+    .page-template-facebook-interest-finder #fp-roi-calculator .fp-container.roi-for-section.facebook-box-shadow,
+    .page-template-ppc-roi-calculator #fp-roi-calculator .fp-container.roi-for-section.facebook-box-shadow,
+    .page-template-seo-roi-calculator #fp-roi-calculator .fp-container.roi-for-section.facebook-box-shadow {
+        padding: 20px 20px;
+        margin-bottom: 50px;
+    }
+    .page-template-facebook-interest-finder .fp-title,
+    .page-template-ppc-roi-calculator .fp-title,
+    .page-template-seo-roi-calculator .fp-title {
+        font-size: 42px;
+        line-height: 52px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .page-template-facebook-interest-finder .banner .container,
+    .page-template-ppc-roi-calculator .banner .container,
+    .page-template-seo-roi-calculator .banner .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .page-template-facebook-interest-finder footer,
+    .page-template-ppc-roi-calculator footer,
+    .page-template-seo-roi-calculator footer {
+        margin-top: 70px;
+    }
+}
+@media (min-width: 992px) {
+    .page-template-facebook-interest-finder .fp-logo,
+    .page-template-ppc-roi-calculator .fp-logo,
+    .page-template-seo-roi-calculator .fp-logo {
+        margin-top: 30px;
+    }
+    .page-template-facebook-interest-finder .ppc-roi-calculator,
+    .page-template-facebook-interest-finder .seo-roi-calculator,
+    .page-template-ppc-roi-calculator .ppc-roi-calculator,
+    .page-template-ppc-roi-calculator .seo-roi-calculator,
+    .page-template-seo-roi-calculator .ppc-roi-calculator,
+    .page-template-seo-roi-calculator .seo-roi-calculator {
+        margin-top: -300px;
+    }
+    .page-template-facebook-interest-finder #fp-roi-calculator .fp-container.roi-for-section,
+    .page-template-ppc-roi-calculator #fp-roi-calculator .fp-container.roi-for-section,
+    .page-template-seo-roi-calculator #fp-roi-calculator .fp-container.roi-for-section {
+        background: #fcfcfc;
+    }
+    .page-template-facebook-interest-finder .fp-container .list-group,
+    .page-template-ppc-roi-calculator .fp-container .list-group,
+    .page-template-seo-roi-calculator .fp-container .list-group {
+        padding: 0 20px;
+        margin-bottom: 10px;
+    }
+    .page-template-facebook-interest-finder .fp-border-radius-right,
+    .page-template-ppc-roi-calculator .fp-border-radius-right,
+    .page-template-seo-roi-calculator .fp-border-radius-right {
+        border-radius: 0 10px 10px 2px;
+    }
+    .page-template-facebook-interest-finder .fp-border-radius-left,
+    .page-template-ppc-roi-calculator .fp-border-radius-left,
+    .page-template-seo-roi-calculator .fp-border-radius-left {
+        border-radius: 10px 0 0 10px;
+    }
+    .page-template-facebook-interest-finder .shaded-white,
+    .page-template-ppc-roi-calculator .shaded-white,
+    .page-template-seo-roi-calculator .shaded-white {
+        background-color: #f6f6f6;
+    }
+    .page-template-facebook-interest-finder .fp-vertical-align:not(:first-of-type),
+    .page-template-ppc-roi-calculator .fp-vertical-align:not(:first-of-type),
+    .page-template-seo-roi-calculator .fp-vertical-align:not(:first-of-type) {
+        border-top: 2px solid #f3f3f3;
+    }
+    .page-template-facebook-interest-finder .page-template-ppc-roi-calculator section.section-services .row .col-12,
+    .page-template-ppc-roi-calculator .page-template-ppc-roi-calculator section.section-services .row .col-12,
+    .page-template-seo-roi-calculator .page-template-ppc-roi-calculator section.section-services .row .col-12 {
+        margin-bottom: 30px;
+    }
+    .page-template-facebook-interest-finder section.banner,
+    .page-template-ppc-roi-calculator section.banner,
+    .page-template-seo-roi-calculator section.banner {
+        padding-bottom: 380px;
+    }
+    .page-template-facebook-interest-finder section.banner .container .row,
+    .page-template-ppc-roi-calculator section.banner .container .row,
+    .page-template-seo-roi-calculator section.banner .container .row {
+        position: relative;
+    }
+    .page-template-facebook-interest-finder section.banner .container .row .col-lg-7,
+    .page-template-ppc-roi-calculator section.banner .container .row .col-lg-7,
+    .page-template-seo-roi-calculator section.banner .container .row .col-lg-7 {
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .page-template-facebook-interest-finder section.banner .container .row .col-lg-5,
+    .page-template-ppc-roi-calculator section.banner .container .row .col-lg-5,
+    .page-template-seo-roi-calculator section.banner .container .row .col-lg-5 {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .page-template-facebook-interest-finder section.banner .container .row img,
+    .page-template-ppc-roi-calculator section.banner .container .row img,
+    .page-template-seo-roi-calculator section.banner .container .row img {
+        position: absolute;
+        right: -50px;
+        top: 0;
+        margin-top: 0;
+    }
+    .page-template-facebook-interest-finder section.banner h1,
+    .page-template-ppc-roi-calculator section.banner h1,
+    .page-template-seo-roi-calculator section.banner h1 {
+        font-size: 75px;
+        line-height: 80px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 1200px) {
+    .page-template-facebook-interest-finder section.banner h1,
+    .page-template-ppc-roi-calculator section.banner h1,
+    .page-template-seo-roi-calculator section.banner h1 {
+        margin-top: 50px;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 767px) {
+    .page-template-facebook-interest-finder .fp-vertical-align,
+    .page-template-ppc-roi-calculator .fp-vertical-align,
+    .page-template-seo-roi-calculator .fp-vertical-align {
+        padding: 0 0 20px;
+    }
+} 
+
+
+.popover {
+    border: none;
+    max-width: 150px;
+    @media (min-width: 992px) {
+      max-width: 200px;
+    }
+  }
+  .popover-body {
+    padding: 10px;
+    color: #fff;
+    background: #427fe0;
+  }
+  
+  .bs-popover-auto[x-placement^="right"] > .arrow::after,
+  .bs-popover-right > .arrow::after {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: #427fe0;
+  }
+  
+  .bs-popover-auto[x-placement^="right"] > .arrow::before,
+  .bs-popover-right > .arrow::before {
+    left: 0;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: transparent;
+  }
+
+  .page-template-ppc-roi-calculator section.section-services .row .col-12 {
+      margin-bottom: 30px;
+  }
+
+  @media (min-width: 768px) {
+    .page-template-ppc-roi-calculator section.section-services .row {
+          margin-right: -10px;
+          margin-left: -10px;
+      }
+      .page-template-ppc-roi-calculator section.section-services .row .col-md-3,
+      .page-template-ppc-roi-calculator section.section-services .row .col-sm-6 {
+          padding-right: 10px;
+          padding-left: 10px;
+      }
+  }
+  .page-template-ppc-roi-calculator section.section-services a.card,
+  .page-template-ppc-roi-calculator section.section-services a.card:hover {
+      color: #00225d;
+      text-decoration: none;
+  }
+
+
+  .page-template-ppc-roi-calculator section.section-services .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 4px 15px 0 rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+.page-template-ppc-roi-calculator section.section-services .card img {
+    margin: 50px auto 15px auto;
+}
+.page-template-ppc-roi-calculator section.section-services .card .card-body {
+    padding: 15px 15px 30px 15px;
+}
+@media (min-width: 992px) {
+    .page-template-ppc-roi-calculator section.section-services .card .card-body {
+        padding: 15px 15px 30px 15px;
+    }
+}
+.page-template-ppc-roi-calculator section.section-services .card .card-body .card-text,
+.page-template-ppc-roi-calculator section.section-services .card .card-body ul.tick {
+    padding: 0 15px;
+}
+.page-template-ppc-roi-calculator section.section-services .card .card-title {
+    margin-bottom: 20px; 
+}
+.page-template-ppc-roi-calculator section.section-services .card h3 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.page-template-ppc-roi-calculator section.section-services .card h4 {
+    font-size: 25px;
+    line-height: 30px;
+}
+.page-template-ppc-roi-calculator section.section-services .card .card-text {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+}
+.page-template-ppc-roi-calculator section.section-services .card .card-footer {
+    padding: 0 15px 30px 15px;
+    background-color: transparent;
+    border-top: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2.4px;
+    color: #ff5254;
+}
+.page-template-ppc-roi-calculator section.section-services .card .card-footer a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2.4px;
+}
+@media (min-width: 768px) {
+    .page-template-ppc-roi-calculator section.section-services .card-text.min-height {
+        min-height: 156px;
+    }
+}

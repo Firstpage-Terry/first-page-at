@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="351px" height="484px" viewBox="0 0 351 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_local_seo_pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="61.7975376%" y1="94.8096742%" x2="37.5502787%" y2="15.2167138%" id="linearGradient-1">
+            <stop stop-color="#DA3E3F" offset="0%"></stop>
+            <stop stop-color="#FF5254" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-17.5%" y="-150.1%" width="135.0%" height="400.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="16.5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---What's-Google-My-Business" transform="translate(-271.000000, -3252.000000)">
+            <g id="img_local_seo_pin" transform="translate(305.000000, 3252.000000)">
+                <path d="M141.5,0 C219.096007,0 282,63.0102938 282,140.73743 C282,192.555521 235.166667,270.976378 141.5,376 C47.8333333,270.976378 1,192.555521 1,140.73743 C1,63.0102938 63.9039927,0 141.5,0 Z M141.5,78 C107.534488,78 80,105.534488 80,139.5 C80,173.465512 107.534488,201 141.5,201 C175.465512,201 203,173.465512 203,139.5 C203,105.534488 175.465512,78 141.5,78 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M141.5,376 C235.166667,270.976378 282,192.555521 282,140.73743 C282,103.78269 267.780865,70.1546184 244.523997,45.0433759 C233.459346,33.0964897 279.013334,80.2808046 253.527344,176.097656 C244.249911,210.976991 206.907463,277.611105 141.5,376 Z" id="Oval-10" fill-opacity="0.05" fill="#000000"></path>
+                <ellipse id="Oval-4" fill="#000000" opacity="0.08" filter="url(#filter-2)" cx="141.468521" cy="426.49115" rx="141.468521" ry="16.4911504"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

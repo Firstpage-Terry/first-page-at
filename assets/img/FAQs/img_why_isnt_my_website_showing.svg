@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="331px" height="330px" viewBox="0 0 331 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_why_isnt_my_website_showing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.7060004%" y1="-48.0015057%" x2="50.824924%" y2="29.8579352%" id="linearGradient-1">
+            <stop stop-color="#80C3F3" offset="0%"></stop>
+            <stop stop-color="#4A90E2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---Why-Isn't-My-Website-Showing-On-Google" transform="translate(-869.000000, -543.000000)" fill-rule="nonzero">
+            <g id="img_why_isnt_my_website_showing" transform="translate(869.000000, 543.000000)">
+                <path d="M165.5,0 C74.144,0 0,73.92 0,165 C0,256.08 74.144,330 165.5,330 C256.856,330 331,256.08 331,165 C331,73.92 256.856,0 165.5,0 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <g id="Group" transform="translate(100.000000, 61.000000)" fill="#FFFFFF">
+                    <path d="M67.6084654,0.494621849 C40.7953757,0.494621849 18.9172105,15.4981513 0.164497483,39.4048739 L31.5835167,68.587563 C40.7953757,56.7166387 50.1717322,46.6593277 61.686556,46.6593277 C71.0629125,46.6593277 81.5907514,53.7489076 81.5907514,65.1252101 C81.5907514,81.4477311 38.8214059,96.7810084 38.8214059,123.98521 L38.8214059,147.727059 L88.8286407,147.727059 L88.8286407,131.404538 C88.8286407,113.598151 131.597986,104.200336 131.597986,65.7847059 C131.433489,25.7203361 103.304419,0.494621849 67.6084654,0.494621849 Z" id="Path"></path>
+                    <path d="M63.1670334,159.103361 C47.0462801,159.103361 34.0509789,172.128403 34.0509789,188.28605 C34.0509789,204.443697 47.0462801,217.468739 63.1670334,217.468739 C79.2877867,217.468739 92.2830878,204.443697 92.2830878,188.28605 C92.2830878,172.128403 79.1232892,159.103361 63.1670334,159.103361 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

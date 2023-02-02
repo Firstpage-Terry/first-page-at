@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>214D9DC4-F7F1-4566-8AE6-F82A65AF93EC</title>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+        <filter x="-104.2%" y="-93.8%" width="308.3%" height="308.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-130.2%" y="-119.8%" width="360.4%" height="360.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-4" cx="24" cy="24" r="24"></circle>
+        <filter x="-67.7%" y="-57.3%" width="235.4%" height="235.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Current-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Current" transform="translate(-645.000000, -1859.000000)">
+            <g id="icn_play_button" transform="translate(695.000000, 1904.000000)">
+                <g id="Oval" filter="url(#filter-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FF5254" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="#FF5254" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <path d="M18.4670604,15.1248875 C18.6111694,15.0416935 18.7724516,15 18.9339756,15 C19.0950643,15 19.256298,15.0416935 19.401036,15.1248875 L30.5328913,23.1933526 C30.8213512,23.3595957 31,23.6673749 31,24.0001508 C31,24.3328785 30.821835,24.6406093 30.5328913,24.8066595 L19.401036,32.8754624 C19.1121406,33.0415125 18.7560041,33.0415125 18.4673022,32.8754624 C18.1783585,32.7088331 18,32.4009575 18,32.0684228 L18,15.9315892 C18,15.5990063 18.1780683,15.2912754 18.4670604,15.1248875 Z" id="play-icon" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

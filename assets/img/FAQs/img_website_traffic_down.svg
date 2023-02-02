@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="326px" viewBox="0 0 320 326" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_website_traffic_down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---Why-Is-My-Website-Traffic-Going-Down" transform="translate(-896.000000, -543.000000)">
+            <g id="img_website_traffic_down" transform="translate(896.000000, 543.000000)">
+                <path d="M160,326 C71.7733333,326 0,252.874125 0,163 C0,73.125875 71.7733333,0 160,0 C248.22,0 320,73.125875 320,163 C320,252.874125 248.22,326 160,326" id="Fill-8" fill="#FF5254"></path>
+                <path d="M142,138 L135.555556,138 C135.555556,127.706667 125.437778,119.333333 113,119.333333 C100.562222,119.333333 90.4444444,127.706667 90.4444444,138 L84,138 C84,124.768 97.0113333,114 113,114 C128.988667,114 142,124.768 142,138" id="Fill-10" fill="#34495E" transform="translate(113.000000, 126.000000) scale(1, -1) translate(-113.000000, -126.000000) "></path>
+                <path d="M236,138 L229.555556,138 C229.555556,127.706667 219.437778,119.333333 207,119.333333 C194.562222,119.333333 184.444444,127.706667 184.444444,138 L178,138 C178,124.768 191.011333,114 207,114 C222.988667,114 236,124.768 236,138" id="Fill-12" fill="#34495E" transform="translate(207.000000, 126.000000) scale(1, -1) translate(-207.000000, -126.000000) "></path>
+                <path d="M160.496636,255 C198.330567,255 229,224.552937 229,187 L92,187 C92,224.552937 122.662706,255 160.496636,255" id="Fill-14" fill="#34495E" transform="translate(160.500000, 221.000000) rotate(-180.000000) translate(-160.500000, -221.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

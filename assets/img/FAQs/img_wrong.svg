@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="397px" height="397px" viewBox="0 0 397 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>img_wrong</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-18.4%" y="-18.4%" width="136.7%" height="136.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQs---Why-Isn't-My-Website-Converting" transform="translate(-836.000000, -1890.000000)">
+            <g id="img_wrong" transform="translate(836.000000, 1890.000000)">
+                <circle id="Oval" fill="#FF5254" cx="198.5" cy="198.5" r="198.5"></circle>
+                <g id="Group-3" filter="url(#filter-1)" transform="translate(70.000000, 68.000000)" fill="#FFFFFF">
+                    <path d="M128.907674,-29.5150131 L135.793721,-29.5248083 C147.391689,-29.5413061 156.807073,-20.1526695 156.823571,-8.55470151 C156.8236,-8.53478689 156.8236,-8.51487224 156.823571,-8.49495762 L156.423286,272.905759 C156.406821,284.480403 147.027822,293.859401 135.453179,293.875866 L128.567132,293.885661 C116.969164,293.902159 107.553779,284.513522 107.537282,272.915554 C107.537253,272.89564 107.537253,272.875725 107.537282,272.855811 L107.937567,-8.54490628 C107.954032,-20.1195497 117.33303,-29.4985484 128.907674,-29.5150131 Z" id="Rectangle" transform="translate(132.180426, 132.180426) rotate(-315.000000) translate(-132.180426, -132.180426) "></path>
+                    <path d="M128.567132,-29.5248083 L135.453179,-29.5150131 C147.027822,-29.4985484 156.406821,-20.1195497 156.423286,-8.54490628 L156.823571,272.855811 C156.840069,284.453779 147.451433,293.869163 135.853464,293.885661 C135.83355,293.88569 135.813635,293.88569 135.793721,293.885661 L128.907674,293.875866 C117.33303,293.859401 107.954032,284.480403 107.937567,272.905759 L107.537282,-8.49495762 C107.520784,-20.0929256 116.90942,-29.5083105 128.507388,-29.5248083 C128.527303,-29.5248366 128.547218,-29.5248366 128.567132,-29.5248083 Z" id="Rectangle" transform="translate(132.180426, 132.180426) rotate(-45.000000) translate(-132.180426, -132.180426) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

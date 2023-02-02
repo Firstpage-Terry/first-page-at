@@ -1,0 +1,13 @@
+.block__two_section {
+    h1,
+    h2 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 20px;
+
+        @media (min-width: $responsive-md) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+}
