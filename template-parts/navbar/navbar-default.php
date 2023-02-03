@@ -43,49 +43,18 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<!-- Contact -->
 				<div class="additional-menu">
-				<button class="navbar-toggler navbar-toggler-close collapsed" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28">
-						<path fill="#427fe0"
-							d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
-						</path>
-						<path d="M0 0h24v24H0z" fill="none"></path>
-					</svg>
-				</button>
+					<button class="navbar-toggler navbar-toggler-close collapsed" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28">
+							<path fill="#427fe0"
+								d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+							</path>
+							<path d="M0 0h24v24H0z" fill="none"></path>
+						</svg>
+					</button>
 
-				<?php if(!is_paged()): ?>
-				
-				<?php /*
-				<ul class="language-switchers">
-					<?php // echo $_SERVER['REQUEST_URI']; ?>
-					<li class="lang-item lang-item-2 lang-item-en <?php if (is_main_site()): echo 'current-lang'; endif; ?>  lang-item-first"><a lang="en-AU" hreflang="en-AU"
-							href="<?php echo get_home_url( 1 ); ?>/<?php if(!is_front_page()): echo basename($_SERVER['REQUEST_URI']); endif; ?><?php if (!is_front_page()): echo '/'; endif; ?>">EN</a></li>
-							
-					<li class="lang-item lang-item-5 lang-item-zh <?php if (!is_main_site()): echo 'current-lang'; endif; ?> "><a lang="zh-HK" hreflang="zh-HK"
-							href="<?php echo get_home_url( 3 ); ?>/<?php if(!is_front_page() || is_home()): echo basename($_SERVER['REQUEST_URI']); endif; ?><?php if (!is_front_page() || is_home()): echo '/'; endif; ?>">繁體</a></li>
-				</ul>
-				*/ ?>
-
-				<?php lang_switcher(); ?>
-
-				<?php endif; ?>
-
-				<?php if(is_paged()): ?>
-				
-				<?php /*
-				<ul class="language-switchers">
-					<?php // echo $_SERVER['REQUEST_URI']; ?>
-					<li class="lang-item lang-item-2 lang-item-en <?php if (is_main_site()): echo 'current-lang'; endif; ?>  lang-item-first"><a lang="en-AU" hreflang="en-AU"
-							href="/learning-centre/page/<?php echo basename($_SERVER['REQUEST_URI']); ?>">EN</a></li>
-							
-					<li class="lang-item lang-item-5 lang-item-zh <?php if (!is_main_site()): echo 'current-lang'; endif; ?> "><a lang="zh-HK" hreflang="zh-HK"
-							href="/zh/learning-centre/page/<?php echo basename($_SERVER['REQUEST_URI']); ?>">繁體</a></li>
-				</ul>
-				*/ ?>
-				<?php lang_switcher(); ?>
-				
-				<?php endif; ?>
+					<?php lang_switcher(); ?>
 				</div>
 
 				<hr class="header-separator" />
