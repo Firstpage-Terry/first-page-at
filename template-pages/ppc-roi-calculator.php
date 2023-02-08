@@ -16,7 +16,7 @@ get_header(); ?>
 				<p>A PPC campaign should be part of any comprehensive digital marketing strategy, but how much return can you realistically expect? Use our ROI calculator to figure out.</p>
 			</div>
 			<div class="col-12 col-md-5 col-lg-5">
-				<img src="/wp-content/uploads/2022/02/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
 			</div>
 		</div>
 	</div> 
@@ -35,7 +35,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">What is the average cost per click for keywords relating to your business?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="cpc_services">CPC <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
+									<label for="cpc_services">CPC <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
 									<input data-type="showsup" id="cpc_services-range" class="fp-slider" type="range" min="0.10" max="50" step="0.10" value="1" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -47,7 +47,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">How much do you intend to spend on your ad campaign?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="ad_spend_services">Ad Spend <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
+									<label for="ad_spend_services">Ad Spend <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
 									<input data-type="wholenumber" id="ad_spend_services-range" class="fp-slider" type="range" min="1000" max="100000" step="1000" value="1000" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -59,7 +59,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">What is the conversion rate (CVR) of visitors to your website that become new leads?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="conversation_rate_services">Conversion Rate <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
+									<label for="conversation_rate_services">Conversion Rate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
 									<input data-type="percentage" id="conversation_rate_services-range" class="fp-slider" type="range" min="0.5" max="100" step="0.5" value="20" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -71,7 +71,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">How many of your leads turn into customers?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="close_rate_services">Close Rate <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have 100 leads and you convert 15 of them into customers, your close rate is (15/100)%= 15%" data-trigger="hover"></label>
+									<label for="close_rate_services">Close Rate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have 100 leads and you convert 15 of them into customers, your close rate is (15/100)%= 15%" data-trigger="hover"></label>
 									<input data-type="percentage" id="close_rate_services-range" class="fp-slider" type="range" min="1" max="100" step="0.5" value="40" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -83,7 +83,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">On average, how much is each customer worth to your business?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="average_customer_value_services">Avg Customer Value <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
+									<label for="average_customer_value_services">Avg Customer Value <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
 									<input data-type="wholenumber" id="average_customer_value_services-range" class="fp-slider" type="range" min="100" max="100000" step="100" value="100" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -95,7 +95,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">The percentage of each sale that is profit</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="average_profit_margin_services">Avg Profit Margin <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
+									<label for="average_profit_margin_services">Avg Profit Margin <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
 									<input data-type="percentage" id="average_profit_margin_services-range" class="fp-slider" type="range" min="1" max="99" step="1" value="1" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -106,7 +106,7 @@ get_header(); ?>
 						<div class="col-12 col-lg-5 fp-shadow-right fp-border-radius-right">
 							<div class="row">
 								<div class="col-12 text-center">
-									<img class="fp-logo" src="/wp-content/uploads/2022/02/fp-logo-roi-calc.svg" />
+									<img class="fp-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/fp-logo-roi-calc.svg" />
 									<p class="seo-cal-based-title">Based on these numbers, here is what you could expect for return on investment*</p>
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item d-flex justify-content-between align-items-center">
@@ -173,7 +173,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">What is the average cost per click for keywords relating to your business?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="cpc_ecommerce">CPC <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
+									<label for="cpc_ecommerce">CPC <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
 									<input data-type="showsup" id="cpc_ecommerce-range" class="fp-slider" type="range" min="0.10" max="20" step=".10" value="1" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -185,7 +185,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">How much do you intend to spend on your ad campaign?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="ad_spend_ecommerce">Ad Spend <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
+									<label for="ad_spend_ecommerce">Ad Spend <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
 									<input data-type="wholenumber" id="ad_spend_ecommerce-range" class="fp-slider" type="range" min="1000" max="100000" step="500" value="1000" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -197,7 +197,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">Conversion rate (from visitors to leads) on the page you send your leads to.</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="conversion_rate_ecommerce">Conversion Rate <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
+									<label for="conversion_rate_ecommerce">Conversion Rate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
 									<input data-type="percentage" id="conversion_rate_ecommerce-range" class="fp-slider" type="range" min="0.1" max="100" step="0.1" value="10" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -209,7 +209,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">On average, how much is each customer worth to your business?</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="avg_customer_value_ecommerce">Avg Customer Value <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
+									<label for="avg_customer_value_ecommerce">Avg Customer Value <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
 									<input data-type="wholenumber" id="avg_customer_value_ecommerce-range" class="fp-slider" type="range" min="5" max="2000" step="5" value="100" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -221,7 +221,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">The percentage of each sale that is profit</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="avg_profit_value_ecommerce">Avg Profit Margin <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
+									<label for="avg_profit_value_ecommerce">Avg Profit Margin <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
 									<input data-type="percentage" id="avg_profit_value_ecommerce-range" class="fp-slider" type="range" min="1" max="99" step="1" value="70" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -232,7 +232,7 @@ get_header(); ?>
 						<div class="col-12 col-lg-5 fp-shadow-right fp-border-radius-right">
 							<div class="row">
 								<div class="col-12 text-center">
-									<img class="fp-logo" src="/wp-content/uploads/2022/02/fp-logo-roi-calc.svg" />
+									<img class="fp-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/fp-logo-roi-calc.svg" />
 									<p class="seo-cal-based-title">Based on these numbers, here is what you could expect for return on investment*</p>
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item d-flex justify-content-between align-items-center">
@@ -297,7 +297,7 @@ get_header(); ?>
 				<p>PPC是最有效的數碼廣告之一，但是您希望從廣告系列中獲得什麼樣的回報？請使用下面的簡單計算器找出...</p>
 			</div>
 			<div class="col-12 col-md-5 col-lg-5">
-				<img src="/wp-content/uploads/2022/02/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
 			</div>
 		</div>
 	</div> 
@@ -316,7 +316,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">與您業務相關的關鍵字的平均每次點擊費用是多少？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="cpc_services">每次點擊費用 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
+									<label for="cpc_services">每次點擊費用 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
 									<input data-type="showsup" id="cpc_services-range" class="fp-slider" type="range" min="0.10" max="50" step="0.10" value="1" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -328,7 +328,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">您打算在廣告上花費多少？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="ad_spend_services">廣告支出 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
+									<label for="ad_spend_services">廣告支出 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
 									<input data-type="wholenumber" id="ad_spend_services-range" class="fp-slider" type="range" min="1000" max="100000" step="1000" value="1000" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -340,7 +340,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">您的頁面轉換率（從瀏覽者到潛在客戶）。</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="conversation_rate_services">轉換率 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
+									<label for="conversation_rate_services">轉換率 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
 									<input data-type="percentage" id="conversation_rate_services-range" class="fp-slider" type="range" min="0.5" max="100" step="0.5" value="20" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -352,7 +352,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">您有多少潛在客戶變成了客戶？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="close_rate_services">成交率 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have 100 leads and you convert 15 of them into customers, your close rate is (15/100)%= 15%" data-trigger="hover"></label>
+									<label for="close_rate_services">成交率 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have 100 leads and you convert 15 of them into customers, your close rate is (15/100)%= 15%" data-trigger="hover"></label>
 									<input data-type="percentage" id="close_rate_services-range" class="fp-slider" type="range" min="1" max="100" step="0.5" value="40" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -364,7 +364,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">平均而言，每個客戶對您的業務有多少價值？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="average_customer_value_services">平均客戶價值 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
+									<label for="average_customer_value_services">平均客戶價值 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
 									<input data-type="wholenumber" id="average_customer_value_services-range" class="fp-slider" type="range" min="100" max="100000" step="100" value="100" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -376,7 +376,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">每次銷售的獲利百分比</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="average_profit_margin_services">平均利潤率 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
+									<label for="average_profit_margin_services">平均利潤率 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
 									<input data-type="percentage" id="average_profit_margin_services-range" class="fp-slider" type="range" min="1" max="99" step="1" value="1" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -387,7 +387,7 @@ get_header(); ?>
 						<div class="col-12 col-lg-5 fp-shadow-right fp-border-radius-right">
 							<div class="row">
 								<div class="col-12 text-center">
-									<img class="fp-logo" src="/wp-content/uploads/2022/02/fp-logo-roi-calc.svg" />
+									<img class="fp-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/fp-logo-roi-calc.svg" />
 									<p class="seo-cal-based-title">根據這些數字，您可以預期獲得投資回報*</p>
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item d-flex justify-content-between align-items-center">
@@ -454,7 +454,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">與您的業務相關的關鍵字的平均每次點擊費用是多少？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="cpc_ecommerce">每次點擊費用 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
+									<label for="cpc_ecommerce">每次點擊費用 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="You can find Cost Per Click metrics on your Google or Facebook ads dashboards. Alternatively, divide your total ad spend by your total clicks to get CPC." data-trigger="hover"></label>
 									<input data-type="showsup" id="cpc_ecommerce-range" class="fp-slider" type="range" min="0.10" max="20" step=".10" value="1" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -466,7 +466,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">您打算在廣告上花費多少？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="ad_spend_ecommerce">廣告支出 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
+									<label for="ad_spend_ecommerce">廣告支出 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If you have no ad spend currently, test out any number. A good place to start is 10% of your total marketing budget." data-trigger="hover"></label>
 									<input data-type="wholenumber" id="ad_spend_ecommerce-range" class="fp-slider" type="range" min="1000" max="100000" step="500" value="1000" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -478,7 +478,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">您的頁面轉換率（從瀏覽者到潛在客戶）。</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="conversion_rate_ecommerce">轉換率 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
+									<label for="conversion_rate_ecommerce">轉換率 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if your website gets 1,000 visitors and 300 of them convert to leads, your conversion rate is (300/1000)%= 30%" data-trigger="hover"></label>
 									<input data-type="percentage" id="conversion_rate_ecommerce-range" class="fp-slider" type="range" min="0.1" max="100" step="0.1" value="10" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -490,7 +490,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">平均而言，每個客戶對您的業務價值多少？</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="avg_customer_value_ecommerce">平均客戶價值 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
+									<label for="avg_customer_value_ecommerce">平均客戶價值 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="E.g. if you have $100,000 in revenue from 20 customers, your average customer value is ($100,000/20)= $5,000" data-trigger="hover"></label>
 									<input data-type="wholenumber" id="avg_customer_value_ecommerce-range" class="fp-slider" type="range" min="5" max="2000" step="5" value="100" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -502,7 +502,7 @@ get_header(); ?>
 									<p class="align-middle fp-text">每次銷售的獲利百分比</p>
 								</div>
 								<div class="col-9 col-md-6">
-									<label for="avg_profit_value_ecommerce">平均利潤率 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
+									<label for="avg_profit_value_ecommerce">平均利潤率 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Average profit margin is your profit as a percentage of cost, totalling all costs and all profits, usually over a long period of time." data-trigger="hover"></label>
 									<input data-type="percentage" id="avg_profit_value_ecommerce-range" class="fp-slider" type="range" min="1" max="99" step="1" value="70" data-orientation="vertical">
 								</div>
 								<div class="col-1 col-md-2">
@@ -513,7 +513,7 @@ get_header(); ?>
 						<div class="col-12 col-lg-5 fp-shadow-right fp-border-radius-right">
 							<div class="row">
 								<div class="col-12 text-center">
-									<img class="fp-logo" src="/wp-content/uploads/2022/02/fp-logo-roi-calc.svg" />
+									<img class="fp-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/fp-logo-roi-calc.svg" />
 									<p class="seo-cal-based-title">根據這些數字，您可以預期獲得投資回報*</p>
 									<ul class="list-group list-group-flush">
 										<li class="list-group-item d-flex justify-content-between align-items-center">
