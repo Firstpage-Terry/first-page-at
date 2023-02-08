@@ -210,7 +210,7 @@ get_header(); ?>
 					</div>
 				<?php endif; ?>
 				<div class="col-12 col-md-5 col-lg-5 text-center d-none d-md-block">
-					<img src="/wp-content/uploads/2022/02/facebook-interest-finder-banner.png" class="img-fluid" alt="Facebook Hidden ad Interest Finder"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/facebook-interest-finder-banner.png" class="img-fluid" alt="Facebook Hidden ad Interest Finder"/>
 				</div>
 			</div>
 		</div>

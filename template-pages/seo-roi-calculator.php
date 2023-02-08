@@ -17,7 +17,7 @@ get_header(); ?>
 				<p>Organic SEO traffic will help you develop a regular influx of clients if you have an online business – but how much of a return can you expect from an SEO campaign? To find out, use our calculator...</p>
 			</div>
 			<div class="col-12 col-md-5 col-lg-5">
-				<img src="/wp-content/uploads/2022/02/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
 			</div>
 		</div>
 	</div>
@@ -34,7 +34,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">How many searches do you get for business-relevant keywords? (per month)</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="total-search-volume">Search Volume <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Search volume information can be found on your Google Analytics/ Google Search Console, and other online tools such as SEMrush and Moz." data-trigger="hover"></label>
+								<label for="total-search-volume">Search Volume <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Search volume information can be found on your Google Analytics/ Google Search Console, and other online tools such as SEMrush and Moz." data-trigger="hover"></label>
 								<input data-type="integer" id="total-search-volume" class="fp-slider" type="range" min="100" max="10000" step="100" value="300" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -46,7 +46,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">What percentage of the people that search for your keywords click on your website?</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="ctr">CTR <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="For example- if the monthly search volume for your keyword is 1,000 and you get 200 clicks for that keyword in a month, your click through rate is (200/1000)%=  20%" data-trigger="hover"></label>
+								<label for="ctr">CTR <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="For example- if the monthly search volume for your keyword is 1,000 and you get 200 clicks for that keyword in a month, your click through rate is (200/1000)%=  20%" data-trigger="hover"></label>
 								<input data-type="percentage" id="ctr" class="fp-slider" type="range" min="5" max="100" step="5" value="10" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -58,7 +58,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">Out of the visitors to your website,what percentage convert into customers?</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="conversion_rate_services">Conversion Rate <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If your website gets 500 visitors and 50 of them convert to paying customers, your CVR is (50/500)%= 10%" data-trigger="hover"></label>
+								<label for="conversion_rate_services">Conversion Rate <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If your website gets 500 visitors and 50 of them convert to paying customers, your CVR is (50/500)%= 10%" data-trigger="hover"></label>
 								<input data-type="percentage" id="conversion" class="fp-slider" type="range" min="0.5" max="100" step="0.5" value="20" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -70,7 +70,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">What is your average <br class="d-none d-md-block">order value?</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="close_rate_services">Average Order Value <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="To calculate your company's average order value, simply divide total revenue by the number of orders." data-trigger="hover"></label>
+								<label for="close_rate_services">Average Order Value <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="To calculate your company's average order value, simply divide total revenue by the number of orders." data-trigger="hover"></label>
 								<input data-type="wholenumber" id="average-order-value" class="fp-slider" type="range" min="100" max="10000" step="100" value="200" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -82,7 +82,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">What is the average lifetime value of your customer?</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="lifetimevalue">Life Time Value <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="How much is one customer worth across their whole lifecycle?  If you don’t have this metric, calculate it by multiplying your customer value with your average customer lifespan." data-trigger="hover"></label>
+								<label for="lifetimevalue">Life Time Value <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="How much is one customer worth across their whole lifecycle?  If you don’t have this metric, calculate it by multiplying your customer value with your average customer lifespan." data-trigger="hover"></label>
 								<input data-type="wholenumber" id="lifetimevalue" class="fp-slider" type="range" min="100" max="10000" step="100" value="200" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -93,7 +93,7 @@ get_header(); ?>
 					<div class="col-12 col-lg-5 fp-shadow-right fp-border-radius-right">
 						<div class="row">
 							<div class="col-12 text-center">
-								<img class="fp-logo" src="/wp-content/uploads/2022/02/fp-logo-roi-calc.svg" />
+								<img class="fp-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/fp-logo-roi-calc.svg" />
 								<?php if (ICL_LANGUAGE_CODE == "en") : ?>
 			                    	<p class="seo-cal-based-title">Based on these numbers, here is what you could expect for return on investment*</p>
 			                    <?php endif; ?>
@@ -163,7 +163,7 @@ get_header(); ?>
 				<p>SEO帶來的自然流量將令您的企業獲得大量客戶青睞，但是預期收入是多少呢？ 立即使用下面的計算器找出答案。</p>
 			</div>
 			<div class="col-12 col-md-5 col-lg-5">
-				<img src="/wp-content/uploads/2022/02/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/roi-calculator-hero-banner.png" class="img-fluid" alt="SEO ROI Calculator" />
 			</div>
 		</div>
 	</div>
@@ -180,7 +180,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">您獲得多少次與業務相關的關鍵字搜尋？（每月）</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="total-search-volume">搜尋量 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Search volume information can be found on your Google Analytics/ Google Search Console, and other online tools such as SEMrush and Moz." data-trigger="hover"></label>
+								<label for="total-search-volume">搜尋量 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="Search volume information can be found on your Google Analytics/ Google Search Console, and other online tools such as SEMrush and Moz." data-trigger="hover"></label>
 								<input data-type="integer" id="total-search-volume" class="fp-slider" type="range" min="100" max="10000" step="100" value="300" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -192,7 +192,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">搜尋您的關鍵字的用戶之中，有多少百分比會點擊您的網站？</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="ctr">點擊率 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="For example- if the monthly search volume for your keyword is 1,000 and you get 200 clicks for that keyword in a month, your click through rate is (200/1000)%=  20%" data-trigger="hover"></label>
+								<label for="ctr">點擊率 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="For example- if the monthly search volume for your keyword is 1,000 and you get 200 clicks for that keyword in a month, your click through rate is (200/1000)%=  20%" data-trigger="hover"></label>
 								<input data-type="percentage" id="ctr" class="fp-slider" type="range" min="5" max="100" step="5" value="10" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -204,7 +204,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">在瀏覽您網站的人之中，有多少百分比可以轉化為客戶？</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="conversion_rate_services">轉換率  <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If your website gets 500 visitors and 50 of them convert to paying customers, your CVR is (50/500)%= 10%" data-trigger="hover"></label>
+								<label for="conversion_rate_services">轉換率  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="If your website gets 500 visitors and 50 of them convert to paying customers, your CVR is (50/500)%= 10%" data-trigger="hover"></label>
 								<input data-type="percentage" id="conversion" class="fp-slider" type="range" min="0.5" max="100" step="0.5" value="20" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -216,7 +216,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">您的平均訂單價值是多少？</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="close_rate_services">平均訂單價值 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="To calculate your company's average order value, simply divide total revenue by the number of orders." data-trigger="hover"></label>
+								<label for="close_rate_services">平均訂單價值 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="To calculate your company's average order value, simply divide total revenue by the number of orders." data-trigger="hover"></label>
 								<input data-type="wholenumber" id="average-order-value" class="fp-slider" type="range" min="100" max="10000" step="100" value="200" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -228,7 +228,7 @@ get_header(); ?>
 								<p class="align-middle fp-text">客戶的平均生命週期價值是多少？</p>
 							</div>
 							<div class="col-9 col-md-6">
-								<label for="lifetimevalue">生命週期價值 <img src="/wp-content/uploads/2022/02/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="How much is one customer worth across their whole lifecycle?  If you don’t have this metric, calculate it by multiplying your customer value with your average customer lifespan." data-trigger="hover"></label>
+								<label for="lifetimevalue">生命週期價值 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icn_question.svg" data-container="body" data-toggle="popover" data-placement="right" data-content="How much is one customer worth across their whole lifecycle?  If you don’t have this metric, calculate it by multiplying your customer value with your average customer lifespan." data-trigger="hover"></label>
 								<input data-type="wholenumber" id="lifetimevalue" class="fp-slider" type="range" min="100" max="10000" step="100" value="200" data-orientation="vertical" />
 							</div>
 							<div class="col-1 col-md-2">
@@ -239,7 +239,7 @@ get_header(); ?>
 					<div class="col-12 col-lg-5 fp-shadow-right fp-border-radius-right">
 						<div class="row">
 							<div class="col-12 text-center">
-								<img class="fp-logo" src="/wp-content/uploads/2022/02/fp-logo-roi-calc.svg" />
+								<img class="fp-logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/fp-logo-roi-calc.svg" />
 								<?php if (ICL_LANGUAGE_CODE == "en") : ?>
 			                    	<p class="seo-cal-based-title">Based on these numbers, here is what you could expect for return on investment*</p>
 			                    <?php endif; ?>
