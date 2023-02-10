@@ -84,9 +84,10 @@
 							<a class="scroll-nav-logo" href="<?php echo home_url() ?>">
 								<img id="scroll-nav-logo" src="/wp-content/themes/firstpage/assets/img/fp-logo.png" srcset="/wp-content/themes/firstpage/assets/img/fp-logo@2x.png 2x" alt="First Page"/></a>
 						</li>
-						<!-- <li class="nav-item nav-item-main">
+						<li class="nav-item nav-item-main">
 							<a class="nav-link" href="/seo/">SEO</a>
-						</li> -->
+						</li>
+						<?php /*
 						<li class="nav-item nav-item-main dropdown">
 							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown">SEO</p>
 							<div class="dropdown-menu">
@@ -95,6 +96,7 @@
 								</div>
 							</div>
 						</li>
+						*/ ?>
 						<li class="nav-item nav-item-main dropdown">
 							<p class="nav-link dropdown-toggle mb-0 d-lg-none" data-toggle="dropdown"><?php trans("GOOGLE ADS", 'Google 廣告')?></p>
 							<div class="dropdown-menu">
