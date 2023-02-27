@@ -273,10 +273,10 @@ function lang_switcher() {
   <?php }
 }
 
-function trans($en, $zh) {
+function trans($en, $de) {
   if(ICL_LANGUAGE_CODE == 'en') {
     echo $en;
-  } else if (ICL_LANGUAGE_CODE == 'zh'){
-    echo $zh;
+  } else if (ICL_LANGUAGE_CODE == 'de'){
+    echo $de;
   }
 }

@@ -80,7 +80,7 @@ get_header(); ?>
                         </div>
                     <?php endif; ?>
 
-                    <?php if(ICL_LANGUAGE_CODE == 'zh'): ?>
+                    <?php if(ICL_LANGUAGE_CODE == 'de'): ?>
                         <div class="" style="padding: 2rem 0;">
                             <h1 class="m-0 px-0 pb-3">讓我們協助您</h1>
                             <p>我們明白您的情況也許很緊急，因此我們的數碼營銷專家將於1 個工作日內與您聯繫。</p>
@@ -144,7 +144,7 @@ get_header(); ?>
 <?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 <h3 class="mb-4">Office</h3>
 <?php } ?>
-<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 <h3 class="mb-4">辦公室資料</h3>
 <?php } ?>
 
@@ -153,7 +153,7 @@ get_header(); ?>
 213 Queen’s Road East,<br>
 Wan Chai, Hong Kong</p>
 <?php } ?>
-<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 <p>香港灣仔皇后大道東213號胡忠大廈35樓3503-07室</p>
 <?php } ?>
 
@@ -163,7 +163,7 @@ Wan Chai, Hong Kong</p>
     <?php if(ICL_LANGUAGE_CODE == 'en') { ?>
     <strong>Phone</strong><br />
     <?php } ?>
-    <?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+    <?php if(ICL_LANGUAGE_CODE == 'de') { ?>
     <strong>電話</strong><br />
     <?php } ?>
 
@@ -175,7 +175,7 @@ Wan Chai, Hong Kong</p>
     <?php if(ICL_LANGUAGE_CODE == 'en') { ?>
     <strong>Email</strong><br />
     <?php } ?>
-    <?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+    <?php if(ICL_LANGUAGE_CODE == 'de') { ?>
     <strong>電郵</strong><br />
     <?php } ?>
     <a href="mailto:<?php the_field('email', 'option'); ?>" class="blue"><?php the_field('email', 'option'); ?></a>
@@ -211,7 +211,7 @@ Wan Chai, Hong Kong</p>
     </table>
 <?php } ?>
 
-<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
     <h3 class="mb-4">辦公時間</h3>
     <table class="table">
         <tr>
@@ -257,7 +257,7 @@ Wan Chai, Hong Kong</p>
 <?php if(ICL_LANGUAGE_CODE == 'en') { ?>
     <h3>Worldwide Locations</h3>
 <?php } ?>
-<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
     <h3>全球辦事處</h3>
 <?php } ?>
 

@@ -140,7 +140,7 @@
 						<li class="nav-item nav-item-main">
 							<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 								<a class="nav-link" href="<?php echo get_home_url(); ?>/contact-us/">CONTACT</a>
-							<?php } else if (ICL_LANGUAGE_CODE == 'zh'){ ?>
+							<?php } else if (ICL_LANGUAGE_CODE == 'de'){ ?>
 								<a class="nav-link" href="<?php echo get_home_url(); ?>contact-us/">聯絡我們</a>
 							<?php } ?>
 						</li>

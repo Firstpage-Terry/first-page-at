@@ -5,7 +5,7 @@
     <?php if(ICL_LANGUAGE_CODE == 'en'): ?>
         <h1 class="text-center">Learning Centre</h1>
     <?php endif; ?>
-    <?php if(ICL_LANGUAGE_CODE == 'zh'): ?>
+    <?php if(ICL_LANGUAGE_CODE == 'de'): ?>
         <h1 class="text-center">教學中心</h1>
     <?php endif; ?>
     </div>

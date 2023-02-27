@@ -944,7 +944,7 @@ $dropdown = get_field('dropdown');
                                     </form>
                                 <?php endif; ?>
 
-                                <?php if (ICL_LANGUAGE_CODE == 'zh') : ?>
+                                <?php if (ICL_LANGUAGE_CODE == 'de') : ?>
                                     <form class="fp-form" action="<?php echo get_home_url(); ?>thank-you" method="POST">
                                         <div class="contact-us-form form-step-1 form-step">
                                             <h1>了解我們如何助您增加收入</h1>

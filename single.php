@@ -102,7 +102,7 @@ $author_image = get_field('profile_image', 'user_' . $author_id);
                    class="d-none d-lg-block btn btn-block fp-btn fp-btn-orange fp-btn-shadow">RETURN TO<br>LEARNING
                     CENTRE</a>
                 <?php endif; ?>
-                <?php if (ICL_LANGUAGE_CODE == 'zh'): ?>
+                <?php if (ICL_LANGUAGE_CODE == 'de'): ?>
                 <a href="<?php echo get_home_url(); ?>resources"
                    class="d-none d-lg-block btn btn-block fp-btn fp-btn-orange fp-btn-shadow">返回教學中心</a>
                 <?php endif; ?>
@@ -110,7 +110,7 @@ $author_image = get_field('profile_image', 'user_' . $author_id);
                     <?php if (ICL_LANGUAGE_CODE == 'en'): ?>
                     <h2>Related articles</h2>
                     <?php endif; ?>
-                    <?php if (ICL_LANGUAGE_CODE == 'zh'): ?>
+                    <?php if (ICL_LANGUAGE_CODE == 'de'): ?>
                     <h2>相關文章</h2>
                     <?php endif; ?>
                     <div>
@@ -140,7 +140,7 @@ $author_image = get_field('profile_image', 'user_' . $author_id);
                            class="btn fp-btn fp-btn-orange fp-btn-shadow btn-block">RETURN TO<br>LEARNING
                             CENTRE</a>
                         <?php endif; ?>
-                        <?php if (ICL_LANGUAGE_CODE == 'zh'): ?>
+                        <?php if (ICL_LANGUAGE_CODE == 'de'): ?>
                         <a href="<?php echo get_home_url(); ?>resources"
                            class="btn fp-btn fp-btn-orange fp-btn-shadow btn-block">返回教學中心</a>
                         <?php endif; ?>
@@ -212,7 +212,7 @@ $author_image = get_field('profile_image', 'user_' . $author_id);
                    class="btn fp-btn fp-btn-orange fp-btn-shadow btn-block">RETURN TO<br>LEARNING
                     CENTRE</a>
                 <?php endif; ?>
-                <?php if (ICL_LANGUAGE_CODE == 'zh'): ?>
+                <?php if (ICL_LANGUAGE_CODE == 'de'): ?>
                 <a href="<?php echo get_home_url(); ?>resources"
                    class="btn fp-btn fp-btn-orange fp-btn-shadow btn-block">返回教學中心</a>
                 <?php endif; ?>

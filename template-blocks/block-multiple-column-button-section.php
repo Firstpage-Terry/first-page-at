@@ -55,7 +55,7 @@
 														<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 															<h4>Start with…</h4>
 														<?php } ?>
-														<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+														<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 															<h4>包括</h4>
 														<?php } ?>
 													<?php endif; ?>
@@ -114,7 +114,7 @@
 								<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 									<h4>Start with…</h4>
 								<?php } ?>
-								<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+								<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 									<h4>包括</h4>
 								<?php } ?>
 								<?php echo get_sub_field('below_content'); ?>
@@ -162,7 +162,7 @@
 								<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 									<h4>Start with…</h4>
 								<?php } ?>
-								<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+								<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 									<h4>包括</h4>
 								<?php } ?>
 								<?php echo get_sub_field('below_content'); ?>
@@ -207,7 +207,7 @@
 								<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 									<h4>Start with…</h4>
 								<?php } ?>
-								<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+								<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 									<h4>包括</h4>
 								<?php } ?>
 								<?php echo get_sub_field('below_content'); ?>

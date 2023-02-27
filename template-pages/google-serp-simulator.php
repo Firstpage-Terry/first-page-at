@@ -2586,7 +2586,7 @@ line-height: 24px;
 			<p class="font-italic mb-4" style="font-size: 18px; font-weight:normal;">Hurry! Limited spots available.</p>
 			<a href="<?php echo get_home_url(); ?>/free-growth-strategy/" class="btn fp-btn fp-btn-white fp-btn-shadow fp-session">Get my free revenue growth session</a>
         <?php endif; ?>
-		<?php if(ICL_LANGUAGE_CODE == 'zh'): ?>
+		<?php if(ICL_LANGUAGE_CODE == 'de'): ?>
             <h4 class="mb-3 h1"><strong>還有疑問？</strong></h4>
 			<h4 class="mb-3 h2"><strong>費獲取由經驗豐富的數碼策略專家提供的營業額增長策略課程（價值HKD$2800）。</strong></h4>
 			<p class="mb-2" style="font-size: 20px; font-weight:normal; line-height: 23px;">我們將會教授於經濟不景氣期間，能顯著提升網站流量及營業額的策略。</p>

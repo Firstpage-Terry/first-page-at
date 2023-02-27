@@ -16,7 +16,7 @@ get_header(); ?>
 					<p>Join a company that does not cut corners or treat you as a number. We help each other win, which is why we are APAC's fastest-growing digital marketing agency.</p>
 					<a href="#vacancies" class="btn fp-btn fp-btn-orange">VIEW OUR OPPORTUNITIES</a>
 				<?php } ?>
-				<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+				<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 					<h1>想加入一間企業文化卓越的數碼營銷公司嗎？</h1>
 					<p>我們處事務實認真，不只重視一堆數字，而是尊重每位員工。同事之間彼此互信互助，讓我們成為香港發展迅速的數碼營銷公司之一。</p>
 					<a href="#vacancies" class="btn fp-btn fp-btn-orange">瀏覽職位空缺</a>
@@ -64,7 +64,7 @@ get_header(); ?>
 				</div>
 			</div>
 		<?php } ?>
-		<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+		<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 			<h2 class="text-center">成為我們的一份子</h2>
 			<div class="row">
 				<div class="col-12 col-md-4 text-center">
@@ -109,7 +109,7 @@ get_header(); ?>
 			<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 				<h2 class="text-center mb-5">Our values</h2>
 			<?php } ?>
-			<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+			<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 				<h2 class="text-center mb-5">我們的核心價值</h2>
 			<?php } ?>
 		</div>
@@ -123,7 +123,7 @@ get_header(); ?>
 						<p class="valueHeading font-weight-bold mb-2">Whoever moves the fastest, wins</p>
 						<p>Do things today, not tomorrow.</p>
 					<?php } ?>
-					<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+					<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 						<p class="valueHeading font-weight-bold mb-2">保持效率</p>
 						<p>今天的事，今天做。</p>
 					<?php } ?>
@@ -138,7 +138,7 @@ get_header(); ?>
 							<p class="valueHeading font-weight-bold mb-2">Fanatical about the details</p>
 							<p>Consistently nailing the 1%’ers helps us change the game.</p>
 						<?php } ?>
-						<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+						<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 							<p class="valueHeading font-weight-bold mb-2">着重於細節</p>
 							<p>堅持讓1%的人幫助我們改變。</p>
 						<?php } ?>
@@ -153,7 +153,7 @@ get_header(); ?>
 							<p class="valueHeading font-weight-bold mb-2">In the trenches together</p>
 							<p>We’re all working towards the one mission. We’re all here to get the job done.</p>
 						<?php } ?>
-						<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+						<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 							<p class="valueHeading font-weight-bold mb-2">團結一致</p>
 							<p>我們都是本着同一個使命來努力完成工作。</p>
 						<?php } ?>
@@ -168,7 +168,7 @@ get_header(); ?>
 							<p class="valueHeading font-weight-bold mb-2">It’s an open forum</p>
 							<p>Always speak your mind, just don’t be a d#%k when you do.</p>
 						<?php } ?>
-						<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+						<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 							<p class="valueHeading font-weight-bold mb-2">開放論壇</p>
 							<p>可隨時說您的想法，只是在要做的時候不要退縮。</p>
 						<?php } ?>
@@ -183,7 +183,7 @@ get_header(); ?>
 							<p class="valueHeading font-weight-bold mb-2">Specialists, not generalists</p>
 							<p>We don’t pretend to know everything, but what we do know we do exceptionally well.</p>
 						<?php } ?>
-						<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+						<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 							<p class="valueHeading font-weight-bold mb-2">我們是專家</p>
 							<p>我們會把所知道的事情都做得非常好。</p>
 						<?php } ?>
@@ -200,7 +200,7 @@ get_header(); ?>
 			<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 				<strong>Our Vacancies</strong>
 			<?php } ?>
-			<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+			<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 				<strong>我們的職位空缺</strong>
 			<?php } ?>
         </h2>
@@ -215,7 +215,7 @@ get_header(); ?>
 				<?php if(ICL_LANGUAGE_CODE == 'en') { ?>
 					<img src="/wp-content/themes/firstpage/img/who_we_are_map_sm.png" class="img-fluid d-md-none" alt="First Page"/>
 				<?php } ?>
-				<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+				<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 					<img src="/wp-content/themes/firstpage/img/who_we_are_global_md-zh.webp" class="img-fluid d-md-none" alt="First Page"/>
 				<?php } ?>
 				<img src="/wp-content/themes/firstpage/img/who_we_are_group_sm_new_update.png" class="img-fluid d-md-none mt-5" alt="First Page"/>
@@ -239,7 +239,7 @@ get_header(); ?>
 					</div>
 				</div>
 			<?php } ?>
-			<?php if(ICL_LANGUAGE_CODE == 'zh') { ?>
+			<?php if(ICL_LANGUAGE_CODE == 'de') { ?>
 				<div class="col-12 col-lg-12  text-center text-md-left">
 					<h2 class="text-center px-2">你的全球績效營銷合作夥伴，
 						<br class="d-none d-lg-block"/>對客戶負責，而非股東。</h2>

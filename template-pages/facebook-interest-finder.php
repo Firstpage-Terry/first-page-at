@@ -199,7 +199,7 @@ get_header(); ?>
 						<p>Since Facebook™ only shows you 25 interest suggestions when you create campaigns, this is an excellent way to discover thousands of targetable but hidden Facebook™ interests, allowing you to save time, money, and find the perfect niche interests you're looking for.</p>
 					</div>
 				<?php endif; ?>
-				<?php if(ICL_LANGUAGE_CODE == 'zh'): ?>
+				<?php if(ICL_LANGUAGE_CODE == 'de'): ?>
 					<div class="col-12 col-md-7 col-lg-7 description-section">
 						<h1>使用 Facebook ™ 這個分析工具，
 							<br class="d-lg-block">
@@ -476,7 +476,7 @@ get_header(); ?>
 			<p class="font-italic mb-4" style="font-size: 18px; font-weight:normal;">Hurry! Limited spots available!</p>
 			<a href="<?php echo get_home_url(); ?>/free-growth-strategy" class="btn fp-btn fp-btn-white fp-btn-shadow fp-session free-session-btn">GET MY FREE REVENUE GROWTH SESSION</a>
 		<?php endif; ?>
-		<?php if(ICL_LANGUAGE_CODE == 'zh'): ?>
+		<?php if(ICL_LANGUAGE_CODE == 'de'): ?>
 			<h4 class="mb-3 h1"><strong>還有疑問？</strong></h4>
 			<p class="mb-3 p-tag-h2-style"><strong>費獲取由經驗豐富的數碼策略專家提供的營業額增長策略課程（價值HKD$2800）。</strong></p>
 			<p class="mb-4" style="font-size:25px;font-weight:normal;line-height:35px;">我們將會教授於經濟不景氣期間，能顯著提升網站流量及營業額的策略。</p>
